@@ -26,7 +26,6 @@ group :test do
   gem 'vcr'
   gem 'capybara'
   gem 'shoulda-matchers'
-  gem 'database_cleaner'
 end 
 
 group :development do
