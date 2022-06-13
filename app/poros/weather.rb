@@ -4,14 +4,13 @@ class Weather
       @hourly = get_hourly(data[:hourly][0..7])
       @current = get_current(data[:current])
       @daily = get_daily(data[:daily][0..4])
-      binding.pry
     end
 
 
     def get_hourly(hours) 
        hash = hours.map do |hour|
             {
-                :time => hour[:dt],
+                :time => Time.at(hour[:dt]),
                 :temperature => hour[:temp],
                 :conditions => hour[:weather][0][:description],
                 :icon => hour[:weather][0][:icon]
@@ -22,7 +21,7 @@ class Weather
 
     def get_current(current)
         {
-        :datetime => current[:dt],
+        :datetime => Time.at(current[:dt]),
         :sunrise => current[:sunrise],
         :sunset => current[:sunset],
         :temperature => current[:temp],
@@ -38,7 +37,7 @@ class Weather
     def get_daily(days)
         hash = days.map do |day|
         {
-        :date => day[:dt],
+        :date => Time.at(day[:dt]),
         :sunrise => day[:sunrise],
         :sunset => day[:sunset],
         :max_temp => day[:temp][:max],
@@ -50,7 +49,4 @@ class Weather
        hash     
     end
 
-    def convert_useless_time(time)
-
-    end
 end
