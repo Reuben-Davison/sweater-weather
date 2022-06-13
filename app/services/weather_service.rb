@@ -4,7 +4,7 @@ class WeatherService
     end
 
     def self.get_url(uri)
-        response = Faraday.get("https://api.openweathermap.org/data/2.5/onecall?exclude=minutely,alerts&#{uri}") do |f|
+        response = Faraday.get("https://api.openweathermap.org/data/2.5/onecall?exclude=minutely,alerts&units=imperial&#{uri}") do |f|
             f.params[:appid] = ENV['open_weather_api']
             end
         JSON.parse(response.body, symbolize_names: true)
