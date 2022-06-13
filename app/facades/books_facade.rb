@@ -1,5 +1,8 @@
 class BooksFacade 
-    def self.get_books(location, quantity, weather)
-        Books.new(location, LibraryService.get_books_details(location)[0..(quantity - 1)], weather)
+    def self.make_books_data(location, quantity, weather)
+        Books.new(location, get_books(location), weather)
+    end
+    def get_books(location)
+        LibraryService.get_books_details(location)
     end
 end
