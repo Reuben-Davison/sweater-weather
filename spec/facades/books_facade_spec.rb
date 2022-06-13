@@ -11,11 +11,11 @@ describe 'Books Facade' do
 
     it 'will get the books data and limit it to quantity', :vcr do 
         location = "boston,ma"
-        books = BooksFacade.new
-        books_data = books.get_books(location)
-        expect(books).to be_a(BooksFacade)
+        books_data = BooksFacade.get_books(location)
+        expect(books_data).to be_a(Hash)
         expect(books_data).to have_key(:numFound)
         expect(books_data).to have_key(:docs)
+        expect(books_data[:docs]).to be_an(Array)
         
     end
 end
