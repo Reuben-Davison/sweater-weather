@@ -1,5 +1,5 @@
 class Weather
-    attr_reader :hourly, :current, :daily
+    attr_reader :id, :hourly, :current, :daily
     def initialize(data)
       @hourly = get_hourly(data[:hourly][0..7])
       @current = get_current(data[:current])
