@@ -14,6 +14,13 @@ describe 'book request' do
         expect(parsed[:attributes]).to have_key(:books)
         expect(parsed[:attributes][:books]).to eq(5)
         expect(parsed[:attributes][:destination]).to eq("denver,co")
+    end
 
+    it '#get_weather', :vcr do 
+        location = 'boston,ma'
+        weather = Api::V1::BooksController.get_weather(location)
+        expect(weather).to be_a(Weather)
+        expect(weather.current).to have_key(:temperature)
+        expect(weather.current).to have_key(:conditions)
     end
 end

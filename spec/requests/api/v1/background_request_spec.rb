@@ -11,4 +11,5 @@ describe 'background request' do
         expect(parsed[:attributes][:image]).to have_key(:image_url)
         expect(parsed[:attributes][:image]).to have_key(:credit)
     end
+
 end
