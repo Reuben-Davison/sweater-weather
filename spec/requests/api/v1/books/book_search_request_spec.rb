@@ -5,6 +5,7 @@ describe 'book request' do
         get '/api/v1/book-search?location=denver,co&quantity=5'
         expect(response).to be_successful 
         parsed = JSON.parse(response.body, symbolize_names: true)[:data]
+        binding.pry
         expect(parsed).to have_key(:attributes)
         expect(parsed).to have_key(:id)
         expect(parsed).to have_key(:type)
@@ -19,8 +20,8 @@ describe 'book request' do
     it '#get_weather', :vcr do 
         location = 'boston,ma'
         weather = Api::V1::BooksController.get_weather(location)
-        expect(weather).to be_a(Weather)
-        expect(weather.current).to have_key(:temperature)
-        expect(weather.current).to have_key(:conditions)
+        expect(weather).to be_a(Hash)
+        expect(weather).to have_key(:temperature)
+        expect(weather).to have_key(:conditions)
     end
 end
