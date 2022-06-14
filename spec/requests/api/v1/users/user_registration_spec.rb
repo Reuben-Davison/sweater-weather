@@ -19,4 +19,17 @@ describe 'User Registration' do
         expect(parsed[:attributes][:email]).to be_a(String)
         expect(parsed[:attributes][:api_key]).to be_a(String)
     end
+
+    it 'will return a 400 status if a user cant be created' do 
+                headers =['Content-Type': 'application/json',
+                'Accept': 'application/json']
+        body = {'email': 'test@test.com',
+                'password': 'password',
+                'password_confirmation': 'paword'}
+        post '/api/v1/users', headers: headers, params: body, as: :json
+        expect(response.status).to eq(418)
+        parsed = JSON.parse(response.body, symbolize_names: true)
+        expect(parsed).to have_key(:text)
+        expect(parsed[:text]).to eq("Password confirmation doesn't match Password")
+    end
 end
