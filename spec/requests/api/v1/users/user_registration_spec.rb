@@ -9,8 +9,13 @@ describe 'User Registration' do
                 'password_confirmation': 'password'}
         post '/api/v1/users', headers: headers, params: body, as: :json
         expect(response).to be_successful 
-        parsed = JSON.parse(response.body, symbolize_names: true)
-        expect(parsed).to have_key(:text) 
-        expect(parsed[:text]).to eq("New User test@test.com has been created")
+        parsed = JSON.parse(response.body, symbolize_names: true)[:data]
+        expect(parsed).to have_key(:attributes) 
+        expect(parsed).to have_key(:id) 
+        expect(parsed).to have_key(:type) 
+        expect(parsed[:attributes]).to have_key(:email)
+        expect(parsed[:attributes]).to have_key(:api_key)
+        expect(parsed[:attributes][:email]).to be_a(String)
+        expect(parsed[:attributes][:api_key]).to be_a(String)
     end
 end
