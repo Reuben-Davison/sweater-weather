@@ -1,0 +1,2611 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://openlibrary.org/search.json?q=place:boston,ma
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 13 Jun 2022 20:51:36 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"SR 1 0.821 TT 0 0.833"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "numFound": 13,
+            "start": 0,
+            "numFoundExact": true,
+            "docs": [
+                {
+                    "key": "/works/OL481148W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL22636096M",
+                        "/books/OL7360108M",
+                        "/books/OL8875929M",
+                        "/books/OL7361871M",
+                        "/books/OL10202154M",
+                        "/books/OL10202153M",
+                        "/books/OL15574706M",
+                        "/books/OL9385990M",
+                        "/books/OL9409366M",
+                        "/books/OL11153023M",
+                        "/books/OL11085445M",
+                        "/books/OL23277530M",
+                        "/books/OL3437293M",
+                        "/books/OL8139955M",
+                        "/books/OL25261929M",
+                        "/books/OL24127918M",
+                        "/books/OL7358585M",
+                        "/books/OL7361659M",
+                        "/books/OL3413225M",
+                        "/books/OL17923957M",
+                        "/books/OL24290596M",
+                        "/works/OL481148W",
+                        "/subjects/racially_mixed_children",
+                        "/subjects/teenagers",
+                        "/subjects/fiction",
+                        "/subjects/interracial_marriage",
+                        "/subjects/college_teachers",
+                        "/subjects/african_american_women",
+                        "/subjects/domestic_fiction",
+                        "/subjects/families",
+                        "/subjects/fictional_works",
+                        "/subjects/literature",
+                        "/subjects/marriage",
+                        "/subjects/family",
+                        "/subjects/mixed-race_families",
+                        "/subjects/university_professors",
+                        "/subjects/haiti",
+                        "/subjects/new_england",
+                        "/subjects/london",
+                        "/subjects/universities--fictional",
+                        "/subjects/race_ethnicity_and_identity",
+                        "/subjects/race_relations",
+                        "/subjects/intergenerational_relations",
+                        "/subjects/english_fiction",
+                        "/subjects/united_states_fiction",
+                        "/subjects/fiction_general",
+                        "/subjects/large_type_books",
+                        "/subjects/new_york_times_reviewed",
+                        "/subjects/fiction_sagas",
+                        "/subjects/fiction_humorous_general",
+                        "/subjects/man-woman_relationships_fiction",
+                        "/subjects/place:massachusetts",
+                        "/subjects/place:london_uk",
+                        "/subjects/place:boston_ma_usa",
+                        "/subjects/place:new_england",
+                        "/subjects/time:2000s",
+                        "/authors/OL30118A"
+                    ],
+                    "title": "On Beauty",
+                    "title_suggest": "On Beauty",
+                    "edition_count": 21,
+                    "edition_key": [
+                        "OL22636096M",
+                        "OL7360108M",
+                        "OL8875929M",
+                        "OL7361871M",
+                        "OL10202154M",
+                        "OL10202153M",
+                        "OL15574706M",
+                        "OL9385990M",
+                        "OL9409366M",
+                        "OL11153023M",
+                        "OL11085445M",
+                        "OL23277530M",
+                        "OL3437293M",
+                        "OL8139955M",
+                        "OL25261929M",
+                        "OL24127918M",
+                        "OL7358585M",
+                        "OL7361659M",
+                        "OL3413225M",
+                        "OL17923957M",
+                        "OL24290596M"
+                    ],
+                    "publish_date": [
+                        "September 13, 2005",
+                        "2005",
+                        "October 2005",
+                        "August 29, 2006",
+                        "2010",
+                        "2006",
+                        "January 2005",
+                        "September 8, 2005"
+                    ],
+                    "publish_year": [
+                        2005,
+                        2010,
+                        2006
+                    ],
+                    "first_publish_year": 2005,
+                    "number_of_pages_median": 455,
+                    "lccn": [
+                        "2005029352",
+                        "2006272543",
+                        "2005283867",
+                        "2006043278",
+                        "2005482297"
+                    ],
+                    "publish_place": [
+                        "Krak\u00f3w",
+                        "Toronto, Ont",
+                        "Waterville, Me",
+                        "London",
+                        "New York",
+                        "London, UK"
+                    ],
+                    "oclc": [
+                        "60416280",
+                        "319433098",
+                        "61396956",
+                        "62186830",
+                        "297552111"
+                    ],
+                    "contributor": [
+                        "Peter Francis James (Reader)",
+                        "Peter Francis James (Narrator)",
+                        "Zbigniew Batko"
+                    ],
+                    "lcc": [
+                        "PR-6069.00000000.M59O5 2005",
+                        "PR-6069.00000000.M59 O5 2006b",
+                        "PR-6069.00000000.M59 O5 2005",
+                        "PR-6069.00000000.M59 O5 2005b",
+                        "PR-6069.00000000.M59",
+                        "PR-6069.00000000.M59 O5 2005c",
+                        "PR-6069.00000000.M59 O5 2006",
+                        "PR-6069.00000000.M59O5 2006b"
+                    ],
+                    "ddc": [
+                        "823.914"
+                    ],
+                    "isbn": [
+                        "0792737709",
+                        "9781594200632",
+                        "9780241142936",
+                        "9780141888316",
+                        "9780141019451",
+                        "0786563974",
+                        "0241142946",
+                        "014101945X",
+                        "0143037749",
+                        "0670045276",
+                        "9780792738404",
+                        "9780786563975",
+                        "0143058002",
+                        "0241142938",
+                        "0141920165",
+                        "9780143017639",
+                        "0786555459",
+                        "078628319X",
+                        "1594200637",
+                        "8324007512",
+                        "9780670045273",
+                        "9780786283194",
+                        "0792738403",
+                        "0141888318",
+                        "9788324007516",
+                        "9780241142943",
+                        "0792737717",
+                        "9780792737704",
+                        "9780792737711",
+                        "9780143058007",
+                        "9780143037743",
+                        "0143017632",
+                        "9780141920160",
+                        "9780786555451"
+                    ],
+                    "last_modified_i": 1653454993,
+                    "ia": [
+                        "onbeautynovel0000smit_d0w5",
+                        "onbeautynovel0000smit",
+                        "onbeautynovel00smit_0",
+                        "onbeauty0000smit",
+                        "onbeauty00smit_950",
+                        "onbeauty00smit"
+                    ],
+                    "ebook_count_i": 6,
+                    "has_fulltext": true,
+                    "public_scan_b": false,
+                    "ia_collection_s": "binghamton-ol;china;delawarecountydistrictlibrary-ol;denverpubliclibrary-ol;inlibrary;internetarchivebooks;librarygenesis;printdisabled;stmaryscountylibrary;the-claremont-colleges-ol;uni-ol;uslprototype;worthingtonlibraries-ol",
+                    "lending_edition_s": "OL10202154M",
+                    "lending_identifier_s": "onbeautynovel0000smit_d0w5",
+                    "printdisabled_s": "OL10202154M;OL7358585M;OL7361659M;OL3413225M;OL8875929M;OL15574706M",
+                    "cover_edition_key": "OL3437293M",
+                    "cover_i": 400923,
+                    "first_sentence": [
+                        "Hey, Dad - basically I'm just going to keep on keeping on with these mails - I'm no longer expecting you to reply, but I'm still hoping you will, if that makes sense."
+                    ],
+                    "publisher": [
+                        "BBC Audiobooks",
+                        "Penguin",
+                        "Penguin Books",
+                        "Penguin Group UK",
+                        "Penguin Press",
+                        "Penguin Audio",
+                        "Znak",
+                        "Sound Library",
+                        "Penguin Highbridge (Aud)",
+                        "Thorndike Press",
+                        "Hamish Hamilton",
+                        "Q P D",
+                        "Viking Canada",
+                        "Penguin Press HC, The"
+                    ],
+                    "language": [
+                        "eng",
+                        "pol"
+                    ],
+                    "author_key": [
+                        "OL30118A"
+                    ],
+                    "author_name": [
+                        "Zadie Smith"
+                    ],
+                    "author_alternative_name": [
+                        "Smith Zadie",
+                        "Zadie Adeline Smith",
+                        "ZADIE SMITH"
+                    ],
+                    "place": [
+                        "Massachusetts",
+                        "London, UK",
+                        "Boston, MA, USA",
+                        "New England"
+                    ],
+                    "subject": [
+                        "Racially mixed children",
+                        "Teenagers",
+                        "Fiction",
+                        "Interracial marriage",
+                        "College teachers",
+                        "African American women",
+                        "Domestic fiction",
+                        "Families",
+                        "Fictional Works",
+                        "Literature",
+                        "Marriage",
+                        "Family",
+                        "Mixed-race families",
+                        "University professors",
+                        "Haiti",
+                        "New England",
+                        "London",
+                        "Universities--Fictional",
+                        "Race, Ethnicity, and Identity",
+                        "Race relations",
+                        "Intergenerational relations",
+                        "English fiction",
+                        "United states, fiction",
+                        "Fiction, general",
+                        "Large type books",
+                        "New York Times reviewed",
+                        "Fiction, sagas",
+                        "Fiction, humorous, general",
+                        "Man-woman relationships, fiction",
+                        "Accessible book",
+                        "Protected DAISY"
+                    ],
+                    "time": [
+                        "2000s"
+                    ],
+                    "id_goodreads": [
+                        "29704",
+                        "210544",
+                        "29708",
+                        "3679",
+                        "373643",
+                        "925746",
+                        "925741",
+                        "925747",
+                        "925763",
+                        "454874",
+                        "454914",
+                        "210543",
+                        "925749",
+                        "210542"
+                    ],
+                    "id_librarything": [
+                        "968993"
+                    ],
+                    "id_overdrive": [
+                        "8E41640E-2233-41A6-A745-8205C517128E"
+                    ],
+                    "id_wikidata": [
+                        "Q58879622"
+                    ],
+                    "ia_box_id": [
+                        "IA1516814",
+                        "IA1884009",
+                        "IA1814615",
+                        "IA1144809"
+                    ],
+                    "publisher_facet": [
+                        "BBC Audiobooks",
+                        "Hamish Hamilton",
+                        "Penguin",
+                        "Penguin Audio",
+                        "Penguin Books",
+                        "Penguin Group UK",
+                        "Penguin Highbridge (Aud)",
+                        "Penguin Press",
+                        "Penguin Press HC, The",
+                        "Q P D",
+                        "Sound Library",
+                        "Thorndike Press",
+                        "Viking Canada",
+                        "Znak"
+                    ],
+                    "place_key": [
+                        "boston_ma_usa",
+                        "london_uk",
+                        "massachusetts",
+                        "new_england"
+                    ],
+                    "time_facet": [
+                        "2000s"
+                    ],
+                    "subject_facet": [
+                        "Accessible book",
+                        "African American women",
+                        "College teachers",
+                        "Domestic fiction",
+                        "English fiction",
+                        "Families",
+                        "Family",
+                        "Fiction",
+                        "Fiction, general",
+                        "Fiction, humorous, general",
+                        "Fiction, sagas",
+                        "Fictional Works",
+                        "Haiti",
+                        "Intergenerational relations",
+                        "Interracial marriage",
+                        "Large type books",
+                        "Literature",
+                        "London",
+                        "Man-woman relationships, fiction",
+                        "Marriage",
+                        "Mixed-race families",
+                        "New England",
+                        "New York Times reviewed",
+                        "Protected DAISY",
+                        "Race relations",
+                        "Race, Ethnicity, and Identity",
+                        "Racially mixed children",
+                        "Teenagers",
+                        "United states, fiction",
+                        "Universities--Fictional",
+                        "University professors"
+                    ],
+                    "_version_": 1733773225641377798,
+                    "place_facet": [
+                        "Boston, MA, USA",
+                        "London, UK",
+                        "Massachusetts",
+                        "New England"
+                    ],
+                    "lcc_sort": "PR-6069.00000000.M59 O5 2006b",
+                    "author_facet": [
+                        "OL30118A Zadie Smith"
+                    ],
+                    "subject_key": [
+                        "accessible_book",
+                        "african_american_women",
+                        "college_teachers",
+                        "domestic_fiction",
+                        "english_fiction",
+                        "families",
+                        "family",
+                        "fiction",
+                        "fiction_general",
+                        "fiction_humorous_general",
+                        "fiction_sagas",
+                        "fictional_works",
+                        "haiti",
+                        "intergenerational_relations",
+                        "interracial_marriage",
+                        "large_type_books",
+                        "literature",
+                        "london",
+                        "man-woman_relationships_fiction",
+                        "marriage",
+                        "mixed-race_families",
+                        "new_england",
+                        "new_york_times_reviewed",
+                        "protected_daisy",
+                        "race_ethnicity_and_identity",
+                        "race_relations",
+                        "racially_mixed_children",
+                        "teenagers",
+                        "united_states_fiction",
+                        "universities--fictional",
+                        "university_professors"
+                    ],
+                    "ddc_sort": "823.914",
+                    "time_key": [
+                        "2000s"
+                    ]
+                },
+                {
+                    "key": "/works/OL13770103W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL33986293M",
+                        "/books/OL23186603M",
+                        "/books/OL32788807M",
+                        "/books/OL32278115M",
+                        "/books/OL28459389M",
+                        "/works/OL13770103W",
+                        "/subjects/american_authors",
+                        "/subjects/biography",
+                        "/subjects/alcott_louisa_may_1832-1888",
+                        "/subjects/authors_american",
+                        "/subjects/authors_biography",
+                        "/subjects/person:loiusa_may_alcott",
+                        "/subjects/place:concord",
+                        "/subjects/place:ma",
+                        "/subjects/place:usa;_boston",
+                        "/subjects/place:usa",
+                        "/subjects/time:1832-1888",
+                        "/authors/OL6611642A"
+                    ],
+                    "title": "Louisa May Alcott",
+                    "title_suggest": "Louisa May Alcott",
+                    "has_fulltext": true,
+                    "edition_count": 5,
+                    "edition_key": [
+                        "OL33986293M",
+                        "OL23186603M",
+                        "OL32788807M",
+                        "OL32278115M",
+                        "OL28459389M"
+                    ],
+                    "publish_date": [
+                        "2010",
+                        "2009",
+                        "Dec 14, 2009"
+                    ],
+                    "publish_year": [
+                        2010,
+                        2009
+                    ],
+                    "first_publish_year": 2009,
+                    "number_of_pages_median": 400,
+                    "lccn": [
+                        "2009010637"
+                    ],
+                    "publish_place": [
+                        "New York",
+                        "New York, New York, USA"
+                    ],
+                    "lcc": [
+                        "PS-1018.00000000.R45 2009"
+                    ],
+                    "ddc": [
+                        "813.4"
+                    ],
+                    "isbn": [
+                        "9781400164455",
+                        "0312658877",
+                        "9780805082999",
+                        "0805082999",
+                        "9781429928816",
+                        "9780312658878",
+                        "1400164451",
+                        "1429928816"
+                    ],
+                    "last_modified_i": 1632902753,
+                    "ebook_count_i": 1,
+                    "ia": [
+                        "louisamayalcottw00reis"
+                    ],
+                    "public_scan_b": false,
+                    "ia_collection_s": "delawarecountydistrictlibrary-ol;americanuniversity-ol;bostonuniversitylibraries-ol;tulsacc-ol;phillipsacademy-preview;universityofcoloradoboulder-ol;wilsoncollege-ol;johnshopkins-ol;drakeuniversity-ol;internetarchivebooks;udc-ol;fav-la_cele;hamiltonpubliclibrary-ol;printdisabled;spokanepubliclibrary-ol;universityofoklahoma-ol;gwulibraries-ol;fav-sandra_ferrer;dartmouthlibrary-ol;inlibrary;china;the-claremont-colleges-ol;worthingtonlibraries-ol;randolph-macon-college-ol;fav-ucevista;uni-ol;universityofarizona-ol;denverpubliclibrary-ol;rochester-ol;riceuniversity-ol;fav-selginzk",
+                    "lending_edition_s": "OL23186603M",
+                    "lending_identifier_s": "louisamayalcottw00reis",
+                    "printdisabled_s": "OL23186603M",
+                    "cover_edition_key": "OL23186603M",
+                    "cover_i": 6297003,
+                    "publisher": [
+                        "Henry Holt",
+                        "Tantor Audio",
+                        "Henry Holt and Company",
+                        "Pan Macmillan",
+                        "Holt & Company, Henry"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL6611642A"
+                    ],
+                    "author_name": [
+                        "Harriet Reisen"
+                    ],
+                    "person": [
+                        "Loiusa May Alcott"
+                    ],
+                    "place": [
+                        "Concord",
+                        "MA",
+                        "USA; Boston",
+                        "USA"
+                    ],
+                    "subject": [
+                        "American Authors",
+                        "Biography",
+                        "Alcott, louisa may, 1832-1888",
+                        "Authors, american",
+                        "Authors, biography",
+                        "Accessible book",
+                        "Protected DAISY"
+                    ],
+                    "time": [
+                        "1832-1888"
+                    ],
+                    "id_goodreads": [
+                        "6606966"
+                    ],
+                    "id_librarything": [
+                        "8648873"
+                    ],
+                    "ia_box_id": [
+                        "IA1159317"
+                    ],
+                    "publisher_facet": [
+                        "Henry Holt",
+                        "Henry Holt and Company",
+                        "Holt & Company, Henry",
+                        "Pan Macmillan",
+                        "Tantor Audio"
+                    ],
+                    "person_key": [
+                        "loiusa_may_alcott"
+                    ],
+                    "place_key": [
+                        "concord",
+                        "ma",
+                        "usa",
+                        "usa_boston"
+                    ],
+                    "time_facet": [
+                        "1832-1888"
+                    ],
+                    "person_facet": [
+                        "Loiusa May Alcott"
+                    ],
+                    "subject_facet": [
+                        "Accessible book",
+                        "Alcott, louisa may, 1832-1888",
+                        "American Authors",
+                        "Authors, american",
+                        "Authors, biography",
+                        "Biography",
+                        "Protected DAISY"
+                    ],
+                    "_version_": 1715077410191310849,
+                    "place_facet": [
+                        "Concord",
+                        "MA",
+                        "USA",
+                        "USA; Boston"
+                    ],
+                    "lcc_sort": "PS-1018.00000000.R45 2009",
+                    "author_facet": [
+                        "OL6611642A Harriet Reisen"
+                    ],
+                    "subject_key": [
+                        "accessible_book",
+                        "alcott_louisa_may_1832-1888",
+                        "american_authors",
+                        "authors_american",
+                        "authors_biography",
+                        "biography",
+                        "protected_daisy"
+                    ],
+                    "ddc_sort": "813.4",
+                    "time_key": [
+                        "1832-1888"
+                    ]
+                },
+                {
+                    "key": "/works/OL2022381W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL25429653M",
+                        "/books/OL5884452M",
+                        "/books/OL25429068M",
+                        "/books/OL25429144M",
+                        "/works/OL2022381W",
+                        "/subjects/adventure;_mystery",
+                        "/subjects/underground_railroad;_texas;_slavery;_grandmother;_boston",
+                        "/subjects/newburyport._ma",
+                        "/subjects/person:william_lloyd_garrison;_andrew_jackson",
+                        "/subjects/place:boston",
+                        "/subjects/place:ma.;_newburyport",
+                        "/subjects/place:ma;_texas",
+                        "/subjects/time:1833",
+                        "/authors/OL244147A"
+                    ],
+                    "title": "The Strange House at Newburyport",
+                    "title_suggest": "The Strange House at Newburyport",
+                    "has_fulltext": false,
+                    "edition_count": 4,
+                    "edition_key": [
+                        "OL25429653M",
+                        "OL5884452M",
+                        "OL25429068M",
+                        "OL25429144M"
+                    ],
+                    "publish_date": [
+                        "1989",
+                        "1967",
+                        "1963"
+                    ],
+                    "publish_year": [
+                        1989,
+                        1967,
+                        1963
+                    ],
+                    "first_publish_year": 1963,
+                    "number_of_pages_median": 128,
+                    "lccn": [
+                        "63016425",
+                        "63-16425"
+                    ],
+                    "publish_place": [
+                        "New York, USA",
+                        "New York",
+                        "Stuttgart, Germany"
+                    ],
+                    "oclc": [
+                        "1866736"
+                    ],
+                    "lcc": [
+                        "PZ-0007.00000000.S8557 St"
+                    ],
+                    "last_modified_i": 1601327472,
+                    "ebook_count_i": 0,
+                    "publisher": [
+                        "Parker River Researchers, Newburyport, MA",
+                        "Schwabenverlag, Stuttgart",
+                        "Dial Press"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL244147A"
+                    ],
+                    "author_name": [
+                        "Martha Bennett Stiles"
+                    ],
+                    "person": [
+                        "William Lloyd Garrison; Andrew Jackson"
+                    ],
+                    "place": [
+                        "Boston",
+                        "MA.; Newburyport",
+                        "MA; Texas"
+                    ],
+                    "subject": [
+                        "adventure; mystery",
+                        "Underground Railroad; Texas; slavery; grandmother; Boston",
+                        "Newburyport. MA"
+                    ],
+                    "time": [
+                        "1833"
+                    ],
+                    "publisher_facet": [
+                        "Dial Press",
+                        "Parker River Researchers, Newburyport, MA",
+                        "Schwabenverlag, Stuttgart"
+                    ],
+                    "person_key": [
+                        "william_lloyd_garrison_andrew_jackson"
+                    ],
+                    "place_key": [
+                        "boston",
+                        "ma._newburyport",
+                        "ma_texas"
+                    ],
+                    "time_facet": [
+                        "1833"
+                    ],
+                    "person_facet": [
+                        "William Lloyd Garrison; Andrew Jackson"
+                    ],
+                    "subject_facet": [
+                        "Newburyport. MA",
+                        "Underground Railroad; Texas; slavery; grandmother; Boston",
+                        "adventure; mystery"
+                    ],
+                    "_version_": 1715083793549754369,
+                    "place_facet": [
+                        "Boston",
+                        "MA.; Newburyport",
+                        "MA; Texas"
+                    ],
+                    "lcc_sort": "PZ-0007.00000000.S8557 St",
+                    "author_facet": [
+                        "OL244147A Martha Bennett Stiles"
+                    ],
+                    "subject_key": [
+                        "adventure_mystery",
+                        "newburyport._ma",
+                        "underground_railroad_texas_slavery_grandmother_boston"
+                    ],
+                    "time_key": [
+                        "1833"
+                    ]
+                },
+                {
+                    "key": "/works/OL903554W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL24130587M",
+                        "/books/OL24801638M",
+                        "/books/OL11213426M",
+                        "/books/OL18498193M",
+                        "/works/OL903554W",
+                        "/subjects/fiction",
+                        "/subjects/friendship",
+                        "/subjects/homosexuality",
+                        "/subjects/humorous_stories",
+                        "/subjects/interpersonal_relations",
+                        "/subjects/young_adult_fiction",
+                        "/subjects/juvenile_fiction",
+                        "/subjects/humorous_fiction",
+                        "/subjects/boston_(ma.)",
+                        "/subjects/place:boston_(ma.)",
+                        "/subjects/place:boston_(mass.)",
+                        "/authors/OL79268A"
+                    ],
+                    "title": "My Most Excellent Year",
+                    "title_suggest": "My Most Excellent Year",
+                    "has_fulltext": true,
+                    "edition_count": 4,
+                    "edition_key": [
+                        "OL24130587M",
+                        "OL24801638M",
+                        "OL11213426M",
+                        "OL18498193M"
+                    ],
+                    "publish_date": [
+                        "March 13, 2008",
+                        "2008"
+                    ],
+                    "publish_year": [
+                        2008
+                    ],
+                    "first_publish_year": 2008,
+                    "number_of_pages_median": 403,
+                    "lccn": [
+                        "2007026651"
+                    ],
+                    "publish_place": [
+                        "New York"
+                    ],
+                    "oclc": [
+                        "236345910",
+                        "163625185"
+                    ],
+                    "lcc": [
+                        "PZ-0007.00000000.K6877 My 2008"
+                    ],
+                    "ddc": [
+                        "[Fic]"
+                    ],
+                    "isbn": [
+                        "9780803732278",
+                        "9780142413432",
+                        "0142413437",
+                        "0803732279"
+                    ],
+                    "last_modified_i": 1636529941,
+                    "ebook_count_i": 3,
+                    "ia": [
+                        "mymostexcellenty00stev",
+                        "mymostexcellenty0000klug",
+                        "mymostexcellenty00klug_0"
+                    ],
+                    "public_scan_b": false,
+                    "ia_collection_s": "printdisabled;china;internetarchivebooks;inlibrary",
+                    "lending_edition_s": "OL24130587M",
+                    "lending_identifier_s": "mymostexcellenty00stev",
+                    "printdisabled_s": "OL24130587M;OL11213426M;OL18498193M",
+                    "cover_edition_key": "OL18498193M",
+                    "cover_i": 12366040,
+                    "publisher": [
+                        "Dial Books",
+                        "Dial"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL79268A"
+                    ],
+                    "author_name": [
+                        "Steve Kluger"
+                    ],
+                    "place": [
+                        "Boston (Ma.)",
+                        "Boston (Mass.)"
+                    ],
+                    "subject": [
+                        "Fiction",
+                        "Friendship",
+                        "Homosexuality",
+                        "Humorous stories",
+                        "Interpersonal relations",
+                        "Young adult fiction",
+                        "Juvenile fiction",
+                        "Humorous fiction",
+                        "Boston (Ma.)",
+                        "Accessible book",
+                        "Protected DAISY"
+                    ],
+                    "id_goodreads": [
+                        "1189878"
+                    ],
+                    "id_librarything": [
+                        "4448839"
+                    ],
+                    "ia_loaded_id": [
+                        "mymostexcellenty00klug"
+                    ],
+                    "ia_box_id": [
+                        "IA141411",
+                        "IA1119916",
+                        "IA1897212",
+                        "IA150301"
+                    ],
+                    "publisher_facet": [
+                        "Dial",
+                        "Dial Books"
+                    ],
+                    "place_key": [
+                        "boston_(ma.)",
+                        "boston_(mass.)"
+                    ],
+                    "subject_facet": [
+                        "Accessible book",
+                        "Boston (Ma.)",
+                        "Fiction",
+                        "Friendship",
+                        "Homosexuality",
+                        "Humorous fiction",
+                        "Humorous stories",
+                        "Interpersonal relations",
+                        "Juvenile fiction",
+                        "Protected DAISY",
+                        "Young adult fiction"
+                    ],
+                    "_version_": 1716026023491928064,
+                    "place_facet": [
+                        "Boston (Ma.)",
+                        "Boston (Mass.)"
+                    ],
+                    "lcc_sort": "PZ-0007.00000000.K6877 My 2008",
+                    "author_facet": [
+                        "OL79268A Steve Kluger"
+                    ],
+                    "subject_key": [
+                        "accessible_book",
+                        "boston_(ma.)",
+                        "fiction",
+                        "friendship",
+                        "homosexuality",
+                        "humorous_fiction",
+                        "humorous_stories",
+                        "interpersonal_relations",
+                        "juvenile_fiction",
+                        "protected_daisy",
+                        "young_adult_fiction"
+                    ],
+                    "ddc_sort": "[Fic]"
+                },
+                {
+                    "key": "/works/OL5887940W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL23273622M",
+                        "/books/OL3474865M",
+                        "/works/OL5887940W",
+                        "/subjects/fiction",
+                        "/subjects/place:ma_boston",
+                        "/authors/OL1452398A"
+                    ],
+                    "title": "The devil served tortellini",
+                    "title_suggest": "The devil served tortellini",
+                    "has_fulltext": true,
+                    "edition_count": 2,
+                    "edition_key": [
+                        "OL23273622M",
+                        "OL3474865M"
+                    ],
+                    "publish_date": [
+                        "2005"
+                    ],
+                    "publish_year": [
+                        2005
+                    ],
+                    "first_publish_year": 2005,
+                    "number_of_pages_median": 352,
+                    "lccn": [
+                        "2005577254"
+                    ],
+                    "publish_place": [
+                        "New York"
+                    ],
+                    "oclc": [
+                        "58397421"
+                    ],
+                    "contributor": [
+                        "Copyright Paperback Collection (Library of Congress)"
+                    ],
+                    "isbn": [
+                        "0821776924",
+                        "9780821776926"
+                    ],
+                    "last_modified_i": 1607899595,
+                    "ebook_count_i": 1,
+                    "ia": [
+                        "devilservedtorte00jump"
+                    ],
+                    "public_scan_b": false,
+                    "ia_collection_s": "printdisabled;inlibrary;internetarchivebooks;china",
+                    "lending_edition_s": "OL23273622M",
+                    "lending_identifier_s": "devilservedtorte00jump",
+                    "printdisabled_s": "OL23273622M",
+                    "cover_edition_key": "OL3474865M",
+                    "cover_i": 621196,
+                    "publisher": [
+                        "Zebra"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL1452398A"
+                    ],
+                    "author_name": [
+                        "Shirley Jump"
+                    ],
+                    "place": [
+                        "MA Boston"
+                    ],
+                    "subject": [
+                        "Fiction",
+                        "Accessible book",
+                        "Protected DAISY"
+                    ],
+                    "id_goodreads": [
+                        "141041"
+                    ],
+                    "id_librarything": [
+                        "116660"
+                    ],
+                    "ia_loaded_id": [
+                        "devilservedtorte00jump"
+                    ],
+                    "ia_box_id": [
+                        "IA177801"
+                    ],
+                    "publisher_facet": [
+                        "Zebra"
+                    ],
+                    "place_key": [
+                        "ma_boston"
+                    ],
+                    "subject_facet": [
+                        "Accessible book",
+                        "Fiction",
+                        "Protected DAISY"
+                    ],
+                    "_version_": 1715093938864390146,
+                    "place_facet": [
+                        "MA Boston"
+                    ],
+                    "author_facet": [
+                        "OL1452398A Shirley Jump"
+                    ],
+                    "subject_key": [
+                        "accessible_book",
+                        "fiction",
+                        "protected_daisy"
+                    ]
+                },
+                {
+                    "key": "/works/OL14963636W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL9762021M",
+                        "/books/OL24289923M",
+                        "/works/OL14963636W",
+                        "/subjects/journalists",
+                        "/subjects/fiction",
+                        "/subjects/romance",
+                        "/subjects/place:boston_(ma.)",
+                        "/subjects/place:massachusetts",
+                        "/authors/OL40094A"
+                    ],
+                    "title": "Freedom's Price",
+                    "title_suggest": "Freedom's Price",
+                    "has_fulltext": true,
+                    "edition_count": 2,
+                    "edition_key": [
+                        "OL9762021M",
+                        "OL24289923M"
+                    ],
+                    "publish_date": [
+                        "2008",
+                        "February 26, 2008"
+                    ],
+                    "publish_year": [
+                        2008
+                    ],
+                    "first_publish_year": 2008,
+                    "number_of_pages_median": 240,
+                    "publish_place": [
+                        "New York"
+                    ],
+                    "oclc": [
+                        "227207962"
+                    ],
+                    "isbn": [
+                        "9780553591439",
+                        "0553591436",
+                        "9780553905519",
+                        "0553905511"
+                    ],
+                    "last_modified_i": 1563798284,
+                    "ebook_count_i": 1,
+                    "ia": [
+                        "freedomsprice00broc"
+                    ],
+                    "public_scan_b": false,
+                    "ia_collection_s": "internetarchivebooks;openlibrary-d-ol;inlibrary;americana;library_of_atlantis;printdisabled;delawarecountydistrictlibrary",
+                    "lending_edition_s": "OL9762021M",
+                    "lending_identifier_s": "freedomsprice00broc",
+                    "printdisabled_s": "OL9762021M",
+                    "cover_edition_key": "OL9762021M",
+                    "cover_i": 1283764,
+                    "publisher": [
+                        "Bantam",
+                        "Random House Publishing Group"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL40094A"
+                    ],
+                    "author_name": [
+                        "Suzanne Brockmann"
+                    ],
+                    "author_alternative_name": [
+                        "Suzanne Brockmann",
+                        "Suzanne Brockmann Gaffney",
+                        "Anne Brock"
+                    ],
+                    "place": [
+                        "Boston (Ma.)",
+                        "Massachusetts"
+                    ],
+                    "subject": [
+                        "Journalists",
+                        "Fiction",
+                        "Romance",
+                        "Accessible book",
+                        "Protected DAISY"
+                    ],
+                    "id_goodreads": [
+                        "1479299"
+                    ],
+                    "id_librarything": [
+                        "757489"
+                    ],
+                    "id_overdrive": [
+                        "ABA049C9-325E-43EC-9015-79286E6842E2"
+                    ],
+                    "ia_box_id": [
+                        "IA119214"
+                    ],
+                    "publisher_facet": [
+                        "Bantam",
+                        "Random House Publishing Group"
+                    ],
+                    "place_key": [
+                        "boston_(ma.)",
+                        "massachusetts"
+                    ],
+                    "subject_facet": [
+                        "Accessible book",
+                        "Fiction",
+                        "Journalists",
+                        "Protected DAISY",
+                        "Romance"
+                    ],
+                    "_version_": 1715077710332559361,
+                    "place_facet": [
+                        "Boston (Ma.)",
+                        "Massachusetts"
+                    ],
+                    "author_facet": [
+                        "OL40094A Suzanne Brockmann"
+                    ],
+                    "subject_key": [
+                        "accessible_book",
+                        "fiction",
+                        "journalists",
+                        "protected_daisy",
+                        "romance"
+                    ]
+                },
+                {
+                    "key": "/works/OL4973199W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL6200084M",
+                        "/books/OL6251027M",
+                        "/books/OL21644639M",
+                        "/works/OL4973199W",
+                        "/subjects/musical_theater",
+                        "/subjects/broadway",
+                        "/subjects/semi-autobiographical_novel",
+                        "/subjects/popular_fiction",
+                        "/subjects/drama",
+                        "/subjects/person:jack_jordan",
+                        "/subjects/person:richard_hackett",
+                        "/subjects/person:ted_snow",
+                        "/subjects/person:irene_lovelle",
+                        "/subjects/person:george_abbott",
+                        "/subjects/person:harold_prince",
+                        "/subjects/person:robert_morse",
+                        "/subjects/person:david_wayne",
+                        "/subjects/person:vivian_blaine",
+                        "/subjects/place:indianapolis_in",
+                        "/subjects/place:new_york_city",
+                        "/subjects/place:manhattan",
+                        "/subjects/place:new_haven_ct",
+                        "/subjects/place:boston_ma",
+                        "/subjects/place:algonquin_hotel",
+                        "/subjects/place:broadway",
+                        "/subjects/time:1953",
+                        "/authors/OL1074007A"
+                    ],
+                    "title": "Say, darling",
+                    "title_suggest": "Say, darling",
+                    "has_fulltext": true,
+                    "edition_count": 3,
+                    "edition_key": [
+                        "OL6200084M",
+                        "OL6251027M",
+                        "OL21644639M"
+                    ],
+                    "publish_date": [
+                        "1959",
+                        "1961",
+                        "1957"
+                    ],
+                    "publish_year": [
+                        1959,
+                        1957,
+                        1961
+                    ],
+                    "first_publish_year": 1957,
+                    "number_of_pages_median": 245,
+                    "lccn": [
+                        "56009071",
+                        "58012952"
+                    ],
+                    "publish_place": [
+                        "Boston",
+                        "Harmondsworth"
+                    ],
+                    "oclc": [
+                        "735446",
+                        "1225288"
+                    ],
+                    "lcc": [
+                        "PS-3552.00000000.I772914 Say",
+                        "PS-3503.00000000.I815 S3",
+                        "PS-3552.00000000.I772914 S3",
+                        "PZ-0003.00000000.B5435 Say"
+                    ],
+                    "ddc": [
+                        "812.54",
+                        "813.54"
+                    ],
+                    "last_modified_i": 1581577721,
+                    "ebook_count_i": 2,
+                    "ia": [
+                        "saydarlingcomedy00biss",
+                        "saydarlingnewnov00biss"
+                    ],
+                    "public_scan_b": false,
+                    "ia_collection_s": "china;printdisabled;internetarchivebooks;fav-jiminycrickets9563;inlibrary;fav-kitcoash;americana",
+                    "lending_edition_s": "OL6200084M",
+                    "lending_identifier_s": "saydarlingnewnov00biss",
+                    "printdisabled_s": "OL6200084M;OL6251027M",
+                    "cover_edition_key": "OL6200084M",
+                    "cover_i": 7431769,
+                    "publisher": [
+                        "Penguin",
+                        "Little, Brown"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL1074007A"
+                    ],
+                    "author_name": [
+                        "Richard Pike Bissell"
+                    ],
+                    "author_alternative_name": [
+                        "Richard Bissell"
+                    ],
+                    "person": [
+                        "Jack Jordan",
+                        "Richard Hackett",
+                        "Ted Snow",
+                        "Irene Lovelle",
+                        "George Abbott",
+                        "Harold Prince",
+                        "Robert Morse",
+                        "David Wayne",
+                        "Vivian Blaine"
+                    ],
+                    "place": [
+                        "Indianapolis IN",
+                        "New York City",
+                        "Manhattan",
+                        "New Haven CT",
+                        "Boston MA",
+                        "Algonquin Hotel",
+                        "Broadway"
+                    ],
+                    "subject": [
+                        "Musical theater",
+                        "Broadway",
+                        "semi-autobiographical novel",
+                        "popular fiction",
+                        "Drama",
+                        "Accessible book",
+                        "Protected DAISY"
+                    ],
+                    "time": [
+                        "1953"
+                    ],
+                    "id_librarything": [
+                        "715771"
+                    ],
+                    "ia_loaded_id": [
+                        "saydarlingcomedy00biss"
+                    ],
+                    "ia_box_id": [
+                        "IA139301",
+                        "IA100617",
+                        "IA143506"
+                    ],
+                    "publisher_facet": [
+                        "Little, Brown",
+                        "Penguin"
+                    ],
+                    "person_key": [
+                        "david_wayne",
+                        "george_abbott",
+                        "harold_prince",
+                        "irene_lovelle",
+                        "jack_jordan",
+                        "richard_hackett",
+                        "robert_morse",
+                        "ted_snow",
+                        "vivian_blaine"
+                    ],
+                    "place_key": [
+                        "algonquin_hotel",
+                        "boston_ma",
+                        "broadway",
+                        "indianapolis_in",
+                        "manhattan",
+                        "new_haven_ct",
+                        "new_york_city"
+                    ],
+                    "time_facet": [
+                        "1953"
+                    ],
+                    "person_facet": [
+                        "David Wayne",
+                        "George Abbott",
+                        "Harold Prince",
+                        "Irene Lovelle",
+                        "Jack Jordan",
+                        "Richard Hackett",
+                        "Robert Morse",
+                        "Ted Snow",
+                        "Vivian Blaine"
+                    ],
+                    "subject_facet": [
+                        "Accessible book",
+                        "Broadway",
+                        "Drama",
+                        "Musical theater",
+                        "Protected DAISY",
+                        "popular fiction",
+                        "semi-autobiographical novel"
+                    ],
+                    "_version_": 1715092891615887364,
+                    "place_facet": [
+                        "Algonquin Hotel",
+                        "Boston MA",
+                        "Broadway",
+                        "Indianapolis IN",
+                        "Manhattan",
+                        "New Haven CT",
+                        "New York City"
+                    ],
+                    "lcc_sort": "PS-3552.00000000.I772914 Say",
+                    "author_facet": [
+                        "OL1074007A Richard Pike Bissell"
+                    ],
+                    "subject_key": [
+                        "accessible_book",
+                        "broadway",
+                        "drama",
+                        "musical_theater",
+                        "popular_fiction",
+                        "protected_daisy",
+                        "semi-autobiographical_novel"
+                    ],
+                    "ddc_sort": "812.54",
+                    "time_key": [
+                        "1953"
+                    ]
+                },
+                {
+                    "key": "/works/OL16126164W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL25429142M",
+                        "/books/OL25010954M",
+                        "/books/OL28770864M",
+                        "/works/OL16126164W",
+                        "/subjects/monkeys_as_pets",
+                        "/subjects/boats_and_boating",
+                        "/subjects/slavery",
+                        "/subjects/capuchin_monkeys",
+                        "/subjects/fugitive_slaves",
+                        "/subjects/fiction",
+                        "/subjects/history;",
+                        "/subjects/uncles",
+                        "/subjects/juvenile_fiction",
+                        "/subjects/history",
+                        "/subjects/children's_fiction",
+                        "/subjects/slavery_fiction",
+                        "/subjects/boats_and_boating_fiction",
+                        "/subjects/united_states_fiction",
+                        "/subjects/monkeys_fiction",
+                        "/subjects/united_states_history_fiction",
+                        "/subjects/person:matthew_g._perry;_millard_fillmore;_william_lloyd_garrison",
+                        "/subjects/place:united_states;_grand_manan_island",
+                        "/subjects/place:canada;_newburyport_&_boston",
+                        "/subjects/place:ma;_charleston",
+                        "/subjects/place:sc;_liverpool",
+                        "/subjects/place:england;_dismal_swamp;_dark_harbor",
+                        "/subjects/place:grand_manan_island",
+                        "/subjects/place:ca;_nova_scotia;_portland_and_kennebunk",
+                        "/subjects/place:me;",
+                        "/subjects/time:1852",
+                        "/authors/OL244147A"
+                    ],
+                    "title": "Sailing to freedom",
+                    "title_suggest": "Sailing to freedom",
+                    "has_fulltext": true,
+                    "edition_count": 3,
+                    "edition_key": [
+                        "OL25429142M",
+                        "OL25010954M",
+                        "OL28770864M"
+                    ],
+                    "publish_date": [
+                        "1012",
+                        "2012",
+                        "2014"
+                    ],
+                    "publish_year": [
+                        1012,
+                        2012,
+                        2014
+                    ],
+                    "first_publish_year": 1012,
+                    "number_of_pages_median": 256,
+                    "lccn": [
+                        "2011025589"
+                    ],
+                    "publish_place": [
+                        "New York"
+                    ],
+                    "lcc": [
+                        "PZ-0007.00000000.S8557Sai 2012",
+                        "PZ-0007.00000000.S8557 Sai 2012"
+                    ],
+                    "ddc": [
+                        "[Fic]"
+                    ],
+                    "isbn": [
+                        "9781250039910",
+                        "9780805092387",
+                        "0805092382",
+                        "1250039916"
+                    ],
+                    "last_modified_i": 1602580650,
+                    "ebook_count_i": 1,
+                    "ia": [
+                        "sailingtofreedom0000stil"
+                    ],
+                    "public_scan_b": false,
+                    "ia_collection_s": "printdisabled;fav-judaye56;internetarchivebooks;inlibrary",
+                    "lending_edition_s": "OL25010954M",
+                    "lending_identifier_s": "sailingtofreedom0000stil",
+                    "printdisabled_s": "OL25010954M",
+                    "cover_edition_key": "OL25010954M",
+                    "cover_i": 9439910,
+                    "publisher": [
+                        "Square Fish",
+                        "Henry Holt and Company"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL244147A"
+                    ],
+                    "author_name": [
+                        "Martha Bennett Stiles"
+                    ],
+                    "person": [
+                        "Matthew G. Perry; Millard Fillmore; William Lloyd Garrison"
+                    ],
+                    "place": [
+                        "United States; Grand Manan Island",
+                        "Canada; Newburyport & Boston",
+                        "MA; Charleston",
+                        "SC; Liverpool",
+                        "England; Dismal Swamp; Dark Harbor",
+                        "Grand Manan Island",
+                        "CA; Nova Scotia; Portland and Kennebunk",
+                        "ME;"
+                    ],
+                    "subject": [
+                        "Monkeys as pets",
+                        "Boats and boating",
+                        "Slavery",
+                        "Capuchin monkeys",
+                        "Fugitive slaves",
+                        "Fiction",
+                        "History;",
+                        "Uncles",
+                        "Juvenile fiction",
+                        "History",
+                        "Children's fiction",
+                        "Slavery, fiction",
+                        "Boats and boating, fiction",
+                        "United states, fiction",
+                        "Monkeys, fiction",
+                        "United states, history, fiction",
+                        "Accessible book",
+                        "Protected DAISY"
+                    ],
+                    "time": [
+                        "1852"
+                    ],
+                    "ia_box_id": [
+                        "IA1682601"
+                    ],
+                    "publisher_facet": [
+                        "Henry Holt and Company",
+                        "Square Fish"
+                    ],
+                    "person_key": [
+                        "matthew_g._perry_millard_fillmore_william_lloyd_garrison"
+                    ],
+                    "place_key": [
+                        "ca_nova_scotia_portland_and_kennebunk",
+                        "canada_newburyport__boston",
+                        "england_dismal_swamp_dark_harbor",
+                        "grand_manan_island",
+                        "ma_charleston",
+                        "me",
+                        "sc_liverpool",
+                        "united_states_grand_manan_island"
+                    ],
+                    "time_facet": [
+                        "1852"
+                    ],
+                    "person_facet": [
+                        "Matthew G. Perry; Millard Fillmore; William Lloyd Garrison"
+                    ],
+                    "subject_facet": [
+                        "Accessible book",
+                        "Boats and boating",
+                        "Boats and boating, fiction",
+                        "Capuchin monkeys",
+                        "Children's fiction",
+                        "Fiction",
+                        "Fugitive slaves",
+                        "History",
+                        "History;",
+                        "Juvenile fiction",
+                        "Monkeys as pets",
+                        "Monkeys, fiction",
+                        "Protected DAISY",
+                        "Slavery",
+                        "Slavery, fiction",
+                        "Uncles",
+                        "United states, fiction",
+                        "United states, history, fiction"
+                    ],
+                    "_version_": 1715078894955003907,
+                    "place_facet": [
+                        "CA; Nova Scotia; Portland and Kennebunk",
+                        "Canada; Newburyport & Boston",
+                        "England; Dismal Swamp; Dark Harbor",
+                        "Grand Manan Island",
+                        "MA; Charleston",
+                        "ME;",
+                        "SC; Liverpool",
+                        "United States; Grand Manan Island"
+                    ],
+                    "lcc_sort": "PZ-0007.00000000.S8557 Sai 2012",
+                    "author_facet": [
+                        "OL244147A Martha Bennett Stiles"
+                    ],
+                    "subject_key": [
+                        "accessible_book",
+                        "boats_and_boating",
+                        "boats_and_boating_fiction",
+                        "capuchin_monkeys",
+                        "children's_fiction",
+                        "fiction",
+                        "fugitive_slaves",
+                        "history",
+                        "juvenile_fiction",
+                        "monkeys_as_pets",
+                        "monkeys_fiction",
+                        "protected_daisy",
+                        "slavery",
+                        "slavery_fiction",
+                        "uncles",
+                        "united_states_fiction",
+                        "united_states_history_fiction"
+                    ],
+                    "ddc_sort": "[Fic]",
+                    "time_key": [
+                        "1852"
+                    ]
+                },
+                {
+                    "key": "/works/OL16583545W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL25268599M",
+                        "/works/OL16583545W",
+                        "/subjects/cryptograms",
+                        "/subjects/libraries",
+                        "/subjects/suspense",
+                        "/subjects/private_investigator",
+                        "/subjects/noanet_woodlands",
+                        "/subjects/bible",
+                        "/subjects/disciples",
+                        "/subjects/greek_orthodox",
+                        "/subjects/jewelry_judge",
+                        "/subjects/person:bartholomew",
+                        "/subjects/person:nathanael",
+                        "/subjects/place:boston_ma",
+                        "/subjects/place:dover_ma",
+                        "/subjects/place:armenia",
+                        "/subjects/place:jordan",
+                        "/subjects/time:approximately_2004",
+                        "/authors/OL3151683A"
+                    ],
+                    "title": "The Carnelian Queen A Cryptic Crime Suspense",
+                    "title_suggest": "The Carnelian Queen A Cryptic Crime Suspense",
+                    "has_fulltext": false,
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL25268599M"
+                    ],
+                    "publish_date": [
+                        "2010"
+                    ],
+                    "publish_year": [
+                        2010
+                    ],
+                    "first_publish_year": 2010,
+                    "number_of_pages_median": 174,
+                    "publish_place": [
+                        "USA"
+                    ],
+                    "last_modified_i": 1344552642,
+                    "ebook_count_i": 0,
+                    "cover_edition_key": "OL25268599M",
+                    "cover_i": 7100649,
+                    "publisher": [
+                        "Lulu.com"
+                    ],
+                    "author_key": [
+                        "OL3151683A"
+                    ],
+                    "author_name": [
+                        "Laurie, A. Perkins"
+                    ],
+                    "person": [
+                        "Bartholomew",
+                        "Nathanael"
+                    ],
+                    "place": [
+                        "Boston MA",
+                        "Dover MA",
+                        "Armenia",
+                        "Jordan"
+                    ],
+                    "subject": [
+                        "cryptograms",
+                        "libraries",
+                        "suspense",
+                        "private investigator",
+                        "Noanet Woodlands",
+                        "Bible",
+                        "disciples",
+                        "Greek Orthodox",
+                        "Jewelry Judge"
+                    ],
+                    "time": [
+                        "approximately 2004"
+                    ],
+                    "publisher_facet": [
+                        "Lulu.com"
+                    ],
+                    "person_key": [
+                        "bartholomew",
+                        "nathanael"
+                    ],
+                    "place_key": [
+                        "armenia",
+                        "boston_ma",
+                        "dover_ma",
+                        "jordan"
+                    ],
+                    "time_facet": [
+                        "approximately 2004"
+                    ],
+                    "person_facet": [
+                        "Bartholomew",
+                        "Nathanael"
+                    ],
+                    "subject_facet": [
+                        "Bible",
+                        "Greek Orthodox",
+                        "Jewelry Judge",
+                        "Noanet Woodlands",
+                        "cryptograms",
+                        "disciples",
+                        "libraries",
+                        "private investigator",
+                        "suspense"
+                    ],
+                    "_version_": 1715079415793188868,
+                    "place_facet": [
+                        "Armenia",
+                        "Boston MA",
+                        "Dover MA",
+                        "Jordan"
+                    ],
+                    "author_facet": [
+                        "OL3151683A Laurie, A. Perkins"
+                    ],
+                    "subject_key": [
+                        "bible",
+                        "cryptograms",
+                        "disciples",
+                        "greek_orthodox",
+                        "jewelry_judge",
+                        "libraries",
+                        "noanet_woodlands",
+                        "private_investigator",
+                        "suspense"
+                    ],
+                    "time_key": [
+                        "approximately_2004"
+                    ]
+                },
+                {
+                    "key": "/works/OL6244021W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL5100993M",
+                        "/works/OL6244021W",
+                        "/subjects/person:boylston_family",
+                        "/subjects/person:lanman_family",
+                        "/subjects/place:london_(england)",
+                        "/subjects/place:boston_(ma)",
+                        "/subjects/place:plymouth_(ma)",
+                        "/subjects/place:norwich_(ct)",
+                        "/authors/OL1620870A"
+                    ],
+                    "title": "The Lanman family",
+                    "title_suggest": "The Lanman family",
+                    "subtitle": "the descendants of Samuel Landman of Boston, Massachusetts, 1687, with data on the Boylston family in England and America",
+                    "has_fulltext": true,
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL5100993M"
+                    ],
+                    "publish_date": [
+                        "1968"
+                    ],
+                    "publish_year": [
+                        1968
+                    ],
+                    "first_publish_year": 1968,
+                    "number_of_pages_median": 172,
+                    "lccn": [
+                        "74173028"
+                    ],
+                    "publish_place": [
+                        "Lancaster, Pa"
+                    ],
+                    "lcc": [
+                        "CS-0071.00000000.L2775 1968"
+                    ],
+                    "ddc": [
+                        "929.20973"
+                    ],
+                    "last_modified_i": 1602385268,
+                    "ebook_count_i": 1,
+                    "ia": [
+                        "lanmanfamilydesc00ston"
+                    ],
+                    "public_scan_b": false,
+                    "ia_collection_s": "fav-pwright62;fav-sgtrob88m;bostonpubliclibrary;inlibrary;fav-dona_grant;bpl-ol;printdisabled;americana;fav-pandorafrancon",
+                    "lending_edition_s": "OL5100993M",
+                    "lending_identifier_s": "lanmanfamilydesc00ston",
+                    "printdisabled_s": "OL5100993M",
+                    "cover_edition_key": "OL5100993M",
+                    "cover_i": 7199276,
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL1620870A"
+                    ],
+                    "author_name": [
+                        "Don Charles Stone"
+                    ],
+                    "person": [
+                        "Boylston family",
+                        "Lanman family"
+                    ],
+                    "place": [
+                        "London (England)",
+                        "Boston (MA)",
+                        "Plymouth (MA)",
+                        "Norwich (CT)"
+                    ],
+                    "subject": [
+                        "Accessible book",
+                        "Protected DAISY"
+                    ],
+                    "person_key": [
+                        "boylston_family",
+                        "lanman_family"
+                    ],
+                    "place_key": [
+                        "boston_(ma)",
+                        "london_(england)",
+                        "norwich_(ct)",
+                        "plymouth_(ma)"
+                    ],
+                    "person_facet": [
+                        "Boylston family",
+                        "Lanman family"
+                    ],
+                    "subject_facet": [
+                        "Accessible book",
+                        "Protected DAISY"
+                    ],
+                    "_version_": 1715094423502585858,
+                    "place_facet": [
+                        "Boston (MA)",
+                        "London (England)",
+                        "Norwich (CT)",
+                        "Plymouth (MA)"
+                    ],
+                    "lcc_sort": "CS-0071.00000000.L2775 1968",
+                    "author_facet": [
+                        "OL1620870A Don Charles Stone"
+                    ],
+                    "subject_key": [
+                        "accessible_book",
+                        "protected_daisy"
+                    ],
+                    "ddc_sort": "929.20973"
+                },
+                {
+                    "key": "/works/OL6669996W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL4545917M",
+                        "/works/OL6669996W",
+                        "/subjects/actors",
+                        "/subjects/biography",
+                        "/subjects/television",
+                        "/subjects/movies",
+                        "/subjects/radio",
+                        "/subjects/columnist",
+                        "/subjects/finch_college",
+                        "/subjects/person:arlene_francis",
+                        "/subjects/person:bennett_cerf",
+                        "/subjects/person:fred_allen",
+                        "/subjects/person:dorothy_kilgallen",
+                        "/subjects/person:john_daly",
+                        "/subjects/person:martin_gabel",
+                        "/subjects/person:peter_gabel_(son)",
+                        "/subjects/place:united_states",
+                        "/subjects/place:boston",
+                        "/subjects/place:ma",
+                        "/subjects/place:new_york_city",
+                        "/subjects/place:california",
+                        "/subjects/place:hollywood",
+                        "/subjects/time:1907-1978",
+                        "/authors/OL1802561A"
+                    ],
+                    "title": "Arlene Francis",
+                    "title_suggest": "Arlene Francis",
+                    "has_fulltext": false,
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL4545917M"
+                    ],
+                    "publish_date": [
+                        "1978"
+                    ],
+                    "publish_year": [
+                        1978
+                    ],
+                    "first_publish_year": 1978,
+                    "number_of_pages_median": 204,
+                    "lccn": [
+                        "77013701"
+                    ],
+                    "publish_place": [
+                        "New York, NY USA"
+                    ],
+                    "oclc": [
+                        "3310923"
+                    ],
+                    "contributor": [
+                        "Rome, Florence, joint author."
+                    ],
+                    "lcc": [
+                        "PN-2287.00000000.F67 A32"
+                    ],
+                    "ddc": [
+                        "791.0924"
+                    ],
+                    "isbn": [
+                        "0671228080",
+                        "9780671228088"
+                    ],
+                    "last_modified_i": 1602566678,
+                    "ebook_count_i": 0,
+                    "cover_edition_key": "OL4545917M",
+                    "cover_i": 7987510,
+                    "publisher": [
+                        "Simon & Schuster"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL1802561A"
+                    ],
+                    "author_name": [
+                        "Arlene Francis"
+                    ],
+                    "person": [
+                        "Arlene Francis",
+                        "Bennett Cerf",
+                        "Fred Allen",
+                        "Dorothy Kilgallen",
+                        "John Daly",
+                        "Martin Gabel",
+                        "Peter Gabel (son)"
+                    ],
+                    "place": [
+                        "United States",
+                        "Boston",
+                        "MA",
+                        "New York City",
+                        "California",
+                        "Hollywood"
+                    ],
+                    "subject": [
+                        "Actors",
+                        "Biography",
+                        "Television",
+                        "Movies",
+                        "Radio",
+                        "Columnist",
+                        "Finch College"
+                    ],
+                    "time": [
+                        "1907-1978"
+                    ],
+                    "id_alibris_id": [
+                        "13973694519"
+                    ],
+                    "id_goodreads": [
+                        "1631715"
+                    ],
+                    "id_librarything": [
+                        "4516342"
+                    ],
+                    "publisher_facet": [
+                        "Simon & Schuster"
+                    ],
+                    "person_key": [
+                        "arlene_francis",
+                        "bennett_cerf",
+                        "dorothy_kilgallen",
+                        "fred_allen",
+                        "john_daly",
+                        "martin_gabel",
+                        "peter_gabel_(son)"
+                    ],
+                    "place_key": [
+                        "boston",
+                        "california",
+                        "hollywood",
+                        "ma",
+                        "new_york_city",
+                        "united_states"
+                    ],
+                    "time_facet": [
+                        "1907-1978"
+                    ],
+                    "person_facet": [
+                        "Arlene Francis",
+                        "Bennett Cerf",
+                        "Dorothy Kilgallen",
+                        "Fred Allen",
+                        "John Daly",
+                        "Martin Gabel",
+                        "Peter Gabel (son)"
+                    ],
+                    "subject_facet": [
+                        "Actors",
+                        "Biography",
+                        "Columnist",
+                        "Finch College",
+                        "Movies",
+                        "Radio",
+                        "Television"
+                    ],
+                    "_version_": 1715094944439336962,
+                    "place_facet": [
+                        "Boston",
+                        "California",
+                        "Hollywood",
+                        "MA",
+                        "New York City",
+                        "United States"
+                    ],
+                    "lcc_sort": "PN-2287.00000000.F67 A32",
+                    "author_facet": [
+                        "OL1802561A Arlene Francis"
+                    ],
+                    "subject_key": [
+                        "actors",
+                        "biography",
+                        "columnist",
+                        "finch_college",
+                        "movies",
+                        "radio",
+                        "television"
+                    ],
+                    "ddc_sort": "791.0924",
+                    "time_key": [
+                        "1907-1978"
+                    ]
+                },
+                {
+                    "key": "/works/OL13675424W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL22763872M",
+                        "/works/OL13675424W",
+                        "/subjects/reconstruction",
+                        "/subjects/civil_war",
+                        "/subjects/greensboro",
+                        "/subjects/planter",
+                        "/subjects/cotton",
+                        "/subjects/alabama",
+                        "/subjects/person:augustus_benners",
+                        "/subjects/person:alfred_benners",
+                        "/subjects/person:willie_benners",
+                        "/subjects/person:fannie_benners",
+                        "/subjects/place:greensboro",
+                        "/subjects/place:montgomery",
+                        "/subjects/place:blount_springs",
+                        "/subjects/place:alabama",
+                        "/subjects/place:washington",
+                        "/subjects/place:d._c._boston",
+                        "/subjects/place:ma.",
+                        "/subjects/time:1850_to_1880s_alabama",
+                        "/authors/OL6530779A"
+                    ],
+                    "title": "Disunion, war, defeat, and recovery in Alabama",
+                    "title_suggest": "Disunion, war, defeat, and recovery in Alabama",
+                    "has_fulltext": false,
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL22763872M"
+                    ],
+                    "publish_date": [
+                        "2007"
+                    ],
+                    "publish_year": [
+                        2007
+                    ],
+                    "first_publish_year": 2007,
+                    "number_of_pages_median": 357,
+                    "publish_place": [
+                        "Macon, GA"
+                    ],
+                    "lcc": [
+                        "F--0000.00000000"
+                    ],
+                    "isbn": [
+                        "9780881460568",
+                        "0881460567"
+                    ],
+                    "last_modified_i": 1387401645,
+                    "ebook_count_i": 0,
+                    "publisher": [
+                        "Mercer University Press"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL6530779A"
+                    ],
+                    "author_name": [
+                        "Augustus Benners"
+                    ],
+                    "person": [
+                        "Augustus Benners",
+                        "Alfred Benners",
+                        "Willie Benners",
+                        "Fannie Benners"
+                    ],
+                    "place": [
+                        "Greensboro",
+                        "Montgomery",
+                        "Blount Springs",
+                        "Alabama",
+                        "Washington",
+                        "D. C. Boston",
+                        "Ma."
+                    ],
+                    "subject": [
+                        "Reconstruction",
+                        "Civil War",
+                        "Greensboro",
+                        "planter",
+                        "cotton",
+                        "Alabama"
+                    ],
+                    "time": [
+                        "1850 to 1880s Alabama"
+                    ],
+                    "id_goodreads": [
+                        "2387465"
+                    ],
+                    "publisher_facet": [
+                        "Mercer University Press"
+                    ],
+                    "person_key": [
+                        "alfred_benners",
+                        "augustus_benners",
+                        "fannie_benners",
+                        "willie_benners"
+                    ],
+                    "place_key": [
+                        "alabama",
+                        "blount_springs",
+                        "d._c._boston",
+                        "greensboro",
+                        "ma.",
+                        "montgomery",
+                        "washington"
+                    ],
+                    "time_facet": [
+                        "1850 to 1880s Alabama"
+                    ],
+                    "person_facet": [
+                        "Alfred Benners",
+                        "Augustus Benners",
+                        "Fannie Benners",
+                        "Willie Benners"
+                    ],
+                    "subject_facet": [
+                        "Alabama",
+                        "Civil War",
+                        "Greensboro",
+                        "Reconstruction",
+                        "cotton",
+                        "planter"
+                    ],
+                    "_version_": 1715077292683689987,
+                    "place_facet": [
+                        "Alabama",
+                        "Blount Springs",
+                        "D. C. Boston",
+                        "Greensboro",
+                        "Ma.",
+                        "Montgomery",
+                        "Washington"
+                    ],
+                    "lcc_sort": "F--0000.00000000",
+                    "author_facet": [
+                        "OL6530779A Augustus Benners"
+                    ],
+                    "subject_key": [
+                        "alabama",
+                        "civil_war",
+                        "cotton",
+                        "greensboro",
+                        "planter",
+                        "reconstruction"
+                    ],
+                    "time_key": [
+                        "1850_to_1880s_alabama"
+                    ]
+                },
+                {
+                    "key": "/works/OL16071447W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL1572190M",
+                        "/works/OL16071447W",
+                        "/subjects/american_arts",
+                        "/subjects/artist_colonies",
+                        "/subjects/childe_hassam",
+                        "/subjects/william_mason",
+                        "/subjects/lowell_mason",
+                        "/subjects/celia_thaxter",
+                        "/subjects/ignace_paderweski",
+                        "/subjects/helen_keller",
+                        "/subjects/biography",
+                        "/subjects/artists",
+                        "/subjects/arts_united_states",
+                        "/subjects/arts_modern",
+                        "/subjects/artists_united_states",
+                        "/subjects/person:celia_thaxter",
+                        "/subjects/person:lowell_mason",
+                        "/subjects/person:william_mason",
+                        "/subjects/person:longfellow",
+                        "/subjects/person:childe_hassam",
+                        "/subjects/person:edward_macdowell",
+                        "/subjects/person:ignace_paderewski",
+                        "/subjects/person:harold_bauer",
+                        "/subjects/person:helen_keller",
+                        "/subjects/person:albert_sterner",
+                        "/subjects/person:laura_coombs_hills",
+                        "/subjects/place:isles_of_shoals",
+                        "/subjects/place:appledore",
+                        "/subjects/place:portsmouth_nh",
+                        "/subjects/place:boston_ma",
+                        "/subjects/place:london_england",
+                        "/subjects/time:victorian_era",
+                        "/authors/OL6973098A"
+                    ],
+                    "title": "The Isles of Shoals remembered",
+                    "title_suggest": "The Isles of Shoals remembered",
+                    "has_fulltext": true,
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL1572190M"
+                    ],
+                    "publish_date": [
+                        "1992"
+                    ],
+                    "publish_year": [
+                        1992
+                    ],
+                    "first_publish_year": 1992,
+                    "lccn": [
+                        "91067338"
+                    ],
+                    "publish_place": [
+                        "Boston"
+                    ],
+                    "oclc": [
+                        "24849254"
+                    ],
+                    "contributor": [
+                        "Mason, Caleb, 1955-"
+                    ],
+                    "lcc": [
+                        "NX-0505.00000000.I84 1992"
+                    ],
+                    "ddc": [
+                        "700.974195"
+                    ],
+                    "isbn": [
+                        "9780804817769",
+                        "0804817766"
+                    ],
+                    "last_modified_i": 1632879050,
+                    "ebook_count_i": 1,
+                    "ia": [
+                        "islesofshoalsrem00maso"
+                    ],
+                    "public_scan_b": false,
+                    "ia_collection_s": "printdisabled;inlibrary;smithsonianlibraries;americana;internetarchivebooks",
+                    "lending_edition_s": "OL1572190M",
+                    "lending_identifier_s": "islesofshoalsrem00maso",
+                    "printdisabled_s": "OL1572190M",
+                    "cover_edition_key": "OL1572190M",
+                    "cover_i": 1519251,
+                    "publisher": [
+                        "Tuttle"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL6973098A"
+                    ],
+                    "author_name": [
+                        "Caleb Mason"
+                    ],
+                    "person": [
+                        "Celia Thaxter",
+                        "Lowell Mason",
+                        "William Mason",
+                        "Longfellow",
+                        "Childe Hassam",
+                        "Edward MacDowell",
+                        "Ignace Paderewski",
+                        "Harold Bauer",
+                        "Helen Keller",
+                        "Albert Sterner",
+                        "Laura Coombs Hills"
+                    ],
+                    "place": [
+                        "Isles of Shoals",
+                        "Appledore",
+                        "Portsmouth NH",
+                        "Boston MA",
+                        "London England"
+                    ],
+                    "subject": [
+                        "American Arts",
+                        "Artist colonies",
+                        "Childe Hassam",
+                        "William Mason",
+                        "Lowell Mason",
+                        "Celia Thaxter",
+                        "Ignace Paderweski",
+                        "Helen Keller",
+                        "Biography",
+                        "Artists",
+                        "Arts, united states",
+                        "Arts, modern",
+                        "Artists, united states",
+                        "Accessible book",
+                        "Protected DAISY"
+                    ],
+                    "time": [
+                        "Victorian Era"
+                    ],
+                    "id_goodreads": [
+                        "1853020"
+                    ],
+                    "id_librarything": [
+                        "3330319"
+                    ],
+                    "ia_loaded_id": [
+                        "islesofshoalsrem00maso"
+                    ],
+                    "ia_box_id": [
+                        "IA122616",
+                        "IA1647601"
+                    ],
+                    "publisher_facet": [
+                        "Tuttle"
+                    ],
+                    "person_key": [
+                        "albert_sterner",
+                        "celia_thaxter",
+                        "childe_hassam",
+                        "edward_macdowell",
+                        "harold_bauer",
+                        "helen_keller",
+                        "ignace_paderewski",
+                        "laura_coombs_hills",
+                        "longfellow",
+                        "lowell_mason",
+                        "william_mason"
+                    ],
+                    "place_key": [
+                        "appledore",
+                        "boston_ma",
+                        "isles_of_shoals",
+                        "london_england",
+                        "portsmouth_nh"
+                    ],
+                    "time_facet": [
+                        "Victorian Era"
+                    ],
+                    "person_facet": [
+                        "Albert Sterner",
+                        "Celia Thaxter",
+                        "Childe Hassam",
+                        "Edward MacDowell",
+                        "Harold Bauer",
+                        "Helen Keller",
+                        "Ignace Paderewski",
+                        "Laura Coombs Hills",
+                        "Longfellow",
+                        "Lowell Mason",
+                        "William Mason"
+                    ],
+                    "subject_facet": [
+                        "Accessible book",
+                        "American Arts",
+                        "Artist colonies",
+                        "Artists",
+                        "Artists, united states",
+                        "Arts, modern",
+                        "Arts, united states",
+                        "Biography",
+                        "Celia Thaxter",
+                        "Childe Hassam",
+                        "Helen Keller",
+                        "Ignace Paderweski",
+                        "Lowell Mason",
+                        "Protected DAISY",
+                        "William Mason"
+                    ],
+                    "_version_": 1715078875028914179,
+                    "place_facet": [
+                        "Appledore",
+                        "Boston MA",
+                        "Isles of Shoals",
+                        "London England",
+                        "Portsmouth NH"
+                    ],
+                    "lcc_sort": "NX-0505.00000000.I84 1992",
+                    "author_facet": [
+                        "OL6973098A Caleb Mason"
+                    ],
+                    "subject_key": [
+                        "accessible_book",
+                        "american_arts",
+                        "artist_colonies",
+                        "artists",
+                        "artists_united_states",
+                        "arts_modern",
+                        "arts_united_states",
+                        "biography",
+                        "celia_thaxter",
+                        "childe_hassam",
+                        "helen_keller",
+                        "ignace_paderweski",
+                        "lowell_mason",
+                        "protected_daisy",
+                        "william_mason"
+                    ],
+                    "ddc_sort": "700.974195",
+                    "time_key": [
+                        "victorian_era"
+                    ]
+                }
+            ],
+            "num_found": 13,
+            "q": "place:boston,ma",
+            "offset": null
+        }
+  recorded_at: Mon, 13 Jun 2022 20:51:36 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/geocoding/v1/address?key=GTwdMRsMZZkgDk6zu2jtgddb1MxblPsW&location=boston,ma
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Mon, 13 Jun 2022 20:51:36 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '1031'
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Geocodetransactioncount:
+      - '1'
+      Last-Modified:
+      - Mon, 13 Jun 2022 20:51:36 GMT
+      Pragma:
+      - no-cache
+      Reversegeocodetransactioncount:
+      - '0'
+      Set-Cookie:
+      - JSESSIONID=0C31081084715126732980F9AC33212F; Path=/; HttpOnly
+      Status:
+      - success
+      Transactionweight:
+      - '1.0'
+    body:
+      encoding: UTF-8
+      string: '{"info":{"statuscode":0,"copyright":{"text":"\u00A9 2022 MapQuest,
+        Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
+        2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"boston,ma"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Boston","adminArea5Type":"City","adminArea4":"Suffolk
+        County","adminArea4Type":"County","adminArea3":"MA","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282040344","unknownInput":"","type":"s","latLng":{"lat":42.358894,"lng":-71.056742},"displayLatLng":{"lat":42.358894,"lng":-71.056742},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=GTwdMRsMZZkgDk6zu2jtgddb1MxblPsW&type=map&size=225,160&locations=42.358894,-71.056742|marker-sm-50318A-1&scalebar=true&zoom=12&rand=-1111716859"}]}]}'
+  recorded_at: Mon, 13 Jun 2022 20:51:36 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/onecall?appid=f8499346cb17b29ecab36c3c63e045f7&exclude=minutely,alerts&lat=42.358894&lon=-71.056742&units=imperial
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Mon, 13 Jun 2022 20:51:36 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '17440'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/onecall?exclude=minutely%2Calerts&lat=42.36&lon=-71.06&units=imperial"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"lat":42.3589,"lon":-71.0567,"timezone":"America/New_York","timezone_offset":-14400,"current":{"dt":1655153496,"sunrise":1655111216,"sunset":1655166109,"temp":83.28,"feels_like":82.89,"pressure":1009,"humidity":42,"dew_point":57.81,"uvi":2.27,"clouds":75,"visibility":10000,"wind_speed":11.01,"wind_deg":312,"wind_gust":18.01,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}]},"hourly":[{"dt":1655150400,"temp":83.19,"feels_like":82.65,"pressure":1009,"humidity":41,"dew_point":57.07,"uvi":3.96,"clouds":64,"visibility":10000,"wind_speed":3.09,"wind_deg":316,"wind_gust":12.24,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}],"pop":0},{"dt":1655154000,"temp":83.28,"feels_like":82.89,"pressure":1009,"humidity":42,"dew_point":57.81,"uvi":2.27,"clouds":75,"visibility":10000,"wind_speed":3.69,"wind_deg":320,"wind_gust":12.93,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}],"pop":0},{"dt":1655157600,"temp":82.67,"feels_like":82.29,"pressure":1009,"humidity":42,"dew_point":57.27,"uvi":1.08,"clouds":63,"visibility":10000,"wind_speed":2.3,"wind_deg":345,"wind_gust":12.08,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}],"pop":0},{"dt":1655161200,"temp":80.15,"feels_like":80.74,"pressure":1009,"humidity":48,"dew_point":58.69,"uvi":0.35,"clouds":49,"visibility":10000,"wind_speed":1.45,"wind_deg":77,"wind_gust":7.92,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03d"}],"pop":0},{"dt":1655164800,"temp":75.38,"feels_like":75.29,"pressure":1010,"humidity":57,"dew_point":59.11,"uvi":0,"clouds":35,"visibility":10000,"wind_speed":0.72,"wind_deg":207,"wind_gust":6.24,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03d"}],"pop":0},{"dt":1655168400,"temp":70.79,"feels_like":70.43,"pressure":1010,"humidity":61,"dew_point":56.7,"uvi":0,"clouds":15,"visibility":10000,"wind_speed":2.93,"wind_deg":237,"wind_gust":5.53,"weather":[{"id":801,"main":"Clouds","description":"few
+        clouds","icon":"02n"}],"pop":0},{"dt":1655172000,"temp":65.91,"feels_like":64.98,"pressure":1010,"humidity":59,"dew_point":50.99,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":4,"wind_deg":269,"wind_gust":7.11,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1655175600,"temp":64.45,"feels_like":63.32,"pressure":1011,"humidity":58,"dew_point":49.41,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":5.35,"wind_deg":295,"wind_gust":15.48,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1655179200,"temp":63.88,"feels_like":62.89,"pressure":1011,"humidity":62,"dew_point":50.25,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":5.39,"wind_deg":311,"wind_gust":18.05,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1655182800,"temp":64,"feels_like":63.07,"pressure":1011,"humidity":63,"dew_point":50.83,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":6.73,"wind_deg":321,"wind_gust":23.22,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1655186400,"temp":64.2,"feels_like":63.23,"pressure":1011,"humidity":62,"dew_point":50.52,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":7.38,"wind_deg":330,"wind_gust":23.33,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1655190000,"temp":62.49,"feels_like":61.5,"pressure":1011,"humidity":65,"dew_point":50.41,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":6.38,"wind_deg":313,"wind_gust":20.65,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1655193600,"temp":61.2,"feels_like":60.17,"pressure":1011,"humidity":67,"dew_point":50.02,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":7.02,"wind_deg":311,"wind_gust":23.11,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1655197200,"temp":60.13,"feels_like":59.04,"pressure":1011,"humidity":68,"dew_point":49.37,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":6.17,"wind_deg":321,"wind_gust":22.32,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1655200800,"temp":60.46,"feels_like":59.4,"pressure":1011,"humidity":68,"dew_point":49.71,"uvi":0.17,"clouds":1,"visibility":10000,"wind_speed":5.91,"wind_deg":323,"wind_gust":22.3,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1655204400,"temp":64.26,"feels_like":63.34,"pressure":1011,"humidity":63,"dew_point":51.06,"uvi":0.67,"clouds":0,"visibility":10000,"wind_speed":7.09,"wind_deg":334,"wind_gust":21.65,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1655208000,"temp":67.8,"feels_like":66.87,"pressure":1012,"humidity":55,"dew_point":50.97,"uvi":1.75,"clouds":0,"visibility":10000,"wind_speed":8.25,"wind_deg":337,"wind_gust":16.6,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1655211600,"temp":70.63,"feels_like":69.64,"pressure":1012,"humidity":48,"dew_point":49.71,"uvi":3.49,"clouds":0,"visibility":10000,"wind_speed":7.38,"wind_deg":337,"wind_gust":11.81,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1655215200,"temp":72.99,"feels_like":72.01,"pressure":1011,"humidity":43,"dew_point":48.83,"uvi":5.59,"clouds":0,"visibility":10000,"wind_speed":6.55,"wind_deg":351,"wind_gust":10.51,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1655218800,"temp":75.15,"feels_like":74.19,"pressure":1011,"humidity":39,"dew_point":48.34,"uvi":7.58,"clouds":1,"visibility":10000,"wind_speed":4.85,"wind_deg":12,"wind_gust":8.79,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1655222400,"temp":76.21,"feels_like":75.31,"pressure":1011,"humidity":38,"dew_point":48.18,"uvi":8.94,"clouds":2,"visibility":10000,"wind_speed":4.94,"wind_deg":44,"wind_gust":9.17,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1655226000,"temp":77.27,"feels_like":76.44,"pressure":1011,"humidity":37,"dew_point":48.25,"uvi":9.25,"clouds":2,"visibility":10000,"wind_speed":4.5,"wind_deg":61,"wind_gust":9.35,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1655229600,"temp":78.33,"feels_like":77.56,"pressure":1011,"humidity":36,"dew_point":48.31,"uvi":8.43,"clouds":2,"visibility":10000,"wind_speed":4.83,"wind_deg":70,"wind_gust":10.09,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1655233200,"temp":78.75,"feels_like":78.75,"pressure":1011,"humidity":35,"dew_point":48.38,"uvi":6.74,"clouds":0,"visibility":10000,"wind_speed":4.72,"wind_deg":75,"wind_gust":10.31,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1655236800,"temp":78.96,"feels_like":78.96,"pressure":1010,"humidity":35,"dew_point":48.58,"uvi":4.62,"clouds":2,"visibility":10000,"wind_speed":4.18,"wind_deg":74,"wind_gust":10.04,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1655240400,"temp":78.98,"feels_like":78.98,"pressure":1010,"humidity":36,"dew_point":49.03,"uvi":2.63,"clouds":4,"visibility":10000,"wind_speed":2.77,"wind_deg":67,"wind_gust":9.89,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1655244000,"temp":78.75,"feels_like":78.75,"pressure":1010,"humidity":37,"dew_point":49.93,"uvi":1.16,"clouds":9,"visibility":10000,"wind_speed":1.88,"wind_deg":30,"wind_gust":10.76,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1655247600,"temp":75.85,"feels_like":75.29,"pressure":1010,"humidity":46,"dew_point":53.15,"uvi":0.37,"clouds":14,"visibility":10000,"wind_speed":1.99,"wind_deg":25,"wind_gust":11.5,"weather":[{"id":801,"main":"Clouds","description":"few
+        clouds","icon":"02d"}],"pop":0},{"dt":1655251200,"temp":72.59,"feels_like":71.91,"pressure":1011,"humidity":50,"dew_point":52.68,"uvi":0,"clouds":23,"visibility":10000,"wind_speed":3.27,"wind_deg":7,"wind_gust":12.71,"weather":[{"id":801,"main":"Clouds","description":"few
+        clouds","icon":"02d"}],"pop":0},{"dt":1655254800,"temp":69.04,"feels_like":68.29,"pressure":1012,"humidity":56,"dew_point":52.41,"uvi":0,"clouds":3,"visibility":10000,"wind_speed":4.03,"wind_deg":345,"wind_gust":11.14,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1655258400,"temp":67.64,"feels_like":66.88,"pressure":1013,"humidity":59,"dew_point":52.84,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":5.21,"wind_deg":349,"wind_gust":14.52,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1655262000,"temp":66.06,"feels_like":65.37,"pressure":1013,"humidity":64,"dew_point":53.15,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":5.21,"wind_deg":347,"wind_gust":15.7,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1655265600,"temp":65.01,"feels_like":64.36,"pressure":1013,"humidity":67,"dew_point":53.37,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":6.11,"wind_deg":355,"wind_gust":18.37,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1655269200,"temp":64.33,"feels_like":63.7,"pressure":1014,"humidity":69,"dew_point":53.65,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":7.58,"wind_deg":11,"wind_gust":20.45,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1655272800,"temp":63,"feels_like":62.53,"pressure":1014,"humidity":75,"dew_point":54.57,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":7.52,"wind_deg":25,"wind_gust":21,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1655276400,"temp":61.66,"feels_like":61.29,"pressure":1015,"humidity":80,"dew_point":55.27,"uvi":0,"clouds":3,"visibility":10000,"wind_speed":6.87,"wind_deg":29,"wind_gust":18.75,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1655280000,"temp":60.48,"feels_like":60.22,"pressure":1016,"humidity":85,"dew_point":55.81,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":6.15,"wind_deg":26,"wind_gust":16.28,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1655283600,"temp":59.4,"feels_like":59.27,"pressure":1016,"humidity":90,"dew_point":56.23,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":6.08,"wind_deg":22,"wind_gust":16.24,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1655287200,"temp":59.86,"feels_like":59.77,"pressure":1017,"humidity":90,"dew_point":56.59,"uvi":0.17,"clouds":1,"visibility":10000,"wind_speed":6.73,"wind_deg":22,"wind_gust":17.52,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1655290800,"temp":62.42,"feels_like":62.26,"pressure":1018,"humidity":83,"dew_point":56.95,"uvi":0.67,"clouds":2,"visibility":10000,"wind_speed":8.3,"wind_deg":41,"wind_gust":14.9,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1655294400,"temp":64.62,"feels_like":64.26,"pressure":1019,"humidity":74,"dew_point":55.83,"uvi":1.76,"clouds":6,"visibility":10000,"wind_speed":9.28,"wind_deg":47,"wind_gust":14.63,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1655298000,"temp":66.18,"feels_like":65.64,"pressure":1019,"humidity":67,"dew_point":54.45,"uvi":3.27,"clouds":6,"visibility":10000,"wind_speed":9.28,"wind_deg":52,"wind_gust":13.78,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1655301600,"temp":67.42,"feels_like":66.83,"pressure":1020,"humidity":63,"dew_point":54.05,"uvi":5.24,"clouds":13,"visibility":10000,"wind_speed":9.42,"wind_deg":57,"wind_gust":13.18,"weather":[{"id":801,"main":"Clouds","description":"few
+        clouds","icon":"02d"}],"pop":0},{"dt":1655305200,"temp":67.93,"feels_like":67.28,"pressure":1020,"humidity":61,"dew_point":53.71,"uvi":7.1,"clouds":22,"visibility":10000,"wind_speed":10.02,"wind_deg":60,"wind_gust":13.91,"weather":[{"id":801,"main":"Clouds","description":"few
+        clouds","icon":"02d"}],"pop":0},{"dt":1655308800,"temp":67.91,"feels_like":67.23,"pressure":1021,"humidity":60,"dew_point":53.15,"uvi":3.26,"clouds":27,"visibility":10000,"wind_speed":10.25,"wind_deg":62,"wind_gust":14.14,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03d"}],"pop":0},{"dt":1655312400,"temp":68.58,"feels_like":67.86,"pressure":1021,"humidity":58,"dew_point":52.61,"uvi":3.37,"clouds":28,"visibility":10000,"wind_speed":9.26,"wind_deg":65,"wind_gust":13.69,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03d"}],"pop":0},{"dt":1655316000,"temp":69.22,"feels_like":68.43,"pressure":1021,"humidity":55,"dew_point":51.91,"uvi":3.08,"clouds":28,"visibility":10000,"wind_speed":8.1,"wind_deg":70,"wind_gust":11.7,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03d"}],"pop":0},{"dt":1655319600,"temp":70.02,"feels_like":69.17,"pressure":1021,"humidity":52,"dew_point":50.92,"uvi":4.11,"clouds":27,"visibility":10000,"wind_speed":7.4,"wind_deg":75,"wind_gust":10.22,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03d"}],"pop":0}],"daily":[{"dt":1655136000,"sunrise":1655111216,"sunset":1655166109,"moonrise":1655164380,"moonset":1655107380,"moon_phase":0.47,"temp":{"day":78.94,"min":61.92,"max":83.28,"night":64.45,"eve":82.67,"morn":64.2},"feels_like":{"day":78.94,"night":63.32,"eve":82.29,"morn":64.98},"pressure":1011,"humidity":51,"dew_point":59.2,"wind_speed":6.62,"wind_deg":257,"wind_gust":20.65,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10d"}],"clouds":94,"pop":1,"rain":5.87,"uvi":7.96},{"dt":1655222400,"sunrise":1655197613,"sunset":1655252536,"moonrise":1655255400,"moonset":1655196660,"moon_phase":0.5,"temp":{"day":76.21,"min":60.13,"max":78.98,"night":66.06,"eve":78.75,"morn":60.46},"feels_like":{"day":75.31,"night":65.37,"eve":78.75,"morn":59.4},"pressure":1011,"humidity":38,"dew_point":48.18,"wind_speed":8.25,"wind_deg":337,"wind_gust":23.33,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"clouds":2,"pop":0,"uvi":9.25},{"dt":1655308800,"sunrise":1655284012,"sunset":1655338961,"moonrise":1655345700,"moonset":1655286660,"moon_phase":0.55,"temp":{"day":67.91,"min":58.19,"max":70.39,"night":58.19,"eve":68.67,"morn":59.86},"feels_like":{"day":67.23,"night":56.86,"eve":67.59,"morn":59.77},"pressure":1021,"humidity":60,"dew_point":53.15,"wind_speed":10.25,"wind_deg":62,"wind_gust":21,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03d"}],"clouds":27,"pop":0,"uvi":7.1},{"dt":1655395200,"sunrise":1655370413,"sunset":1655425384,"moonrise":1655435280,"moonset":1655377380,"moon_phase":0.59,"temp":{"day":75.52,"min":53.46,"max":78.84,"night":64.49,"eve":72.1,"morn":54.64},"feels_like":{"day":74.37,"night":64.31,"eve":71.04,"morn":53.42},"pressure":1022,"humidity":34,"dew_point":44.53,"wind_speed":13.78,"wind_deg":195,"wind_gust":30.87,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03d"}],"clouds":35,"pop":0,"uvi":7.97},{"dt":1655481600,"sunrise":1655456816,"sunset":1655511805,"moonrise":1655524140,"moonset":1655468460,"moon_phase":0.62,"temp":{"day":77.99,"min":63.28,"max":83.7,"night":64.63,"eve":71.64,"morn":64.06},"feels_like":{"day":78.26,"night":64.6,"eve":72.5,"morn":64.63},"pressure":1006,"humidity":59,"dew_point":61.86,"wind_speed":13.2,"wind_deg":203,"wind_gust":33.38,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10d"}],"clouds":74,"pop":1,"rain":5.7,"uvi":6.22},{"dt":1655568000,"sunrise":1655543221,"sunset":1655598224,"moonrise":0,"moonset":1655559600,"moon_phase":0.66,"temp":{"day":67.87,"min":58.6,"max":67.87,"night":58.6,"eve":64.71,"morn":61.52},"feels_like":{"day":66.52,"night":56.37,"eve":62.91,"morn":60.66},"pressure":1004,"humidity":46,"dew_point":46.06,"wind_speed":16.2,"wind_deg":322,"wind_gust":29.39,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}],"clouds":82,"pop":0.2,"uvi":1.38},{"dt":1655654400,"sunrise":1655629628,"sunset":1655684641,"moonrise":1655612400,"moonset":1655650560,"moon_phase":0.7,"temp":{"day":57.54,"min":53.83,"max":62.83,"night":53.83,"eve":62.38,"morn":54.68},"feels_like":{"day":55.87,"night":51.98,"eve":60.58,"morn":52.86},"pressure":1010,"humidity":61,"dew_point":43.86,"wind_speed":13.67,"wind_deg":302,"wind_gust":30.49,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10d"}],"clouds":100,"pop":0.38,"rain":0.46,"uvi":2},{"dt":1655740800,"sunrise":1655716038,"sunset":1655771057,"moonrise":1655700360,"moonset":1655741220,"moon_phase":0.75,"temp":{"day":72.82,"min":48.87,"max":77.7,"night":59.74,"eve":77.7,"morn":48.87},"feels_like":{"day":71.02,"night":57.96,"eve":76.21,"morn":47.01},"pressure":1012,"humidity":26,"dew_point":36.16,"wind_speed":12.59,"wind_deg":332,"wind_gust":20.58,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"clouds":5,"pop":0,"uvi":2}]}'
+  recorded_at: Mon, 13 Jun 2022 20:51:36 GMT
+recorded_with: VCR 6.1.0
