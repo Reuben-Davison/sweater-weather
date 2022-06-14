@@ -3,7 +3,7 @@ class Api::V1::UsersController < ApplicationController
        user = User.new(user_params)
        user.api_key = SecureRandom.base64(16)
        if user.save
-        render json: UserSerializer.new(user)
+        render json: UserSerializer.new(user), status: 201
        else 
         render json: {text: "User could not be created"}, status: 404
        end
