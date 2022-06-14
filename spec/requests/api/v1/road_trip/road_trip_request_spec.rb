@@ -12,6 +12,26 @@ describe 'road trip request' do
                   'Accept': 'application/json'}
         post '/api/v1/road_trip', headers: headers, params: body, as: :json
         expect(response).to be_succesful
+        parsed = JSON.parse(response.body, symbolize_names: true)[:data]
+        expect(parsed).to have_key(:attributes)
+        expect(parsed[:attributes]).to be_a(Hash)
+        expect(parsed).to have_key(:id)
+        expect(parsed[:id]).to eq(nil)
+        expect(parsed).to have_key(:type)
+        expect(parsed[:type]).to be_a(String)
+        expect(parsed[:attributes]).to have_key(:start_city)
+        expect(parsed[:attributes][:start_city]).to be_a(String)
+        expect(parsed[:attributes]).to have_key(:end_city)
+        expect(parsed[:attributes][:end_city]).to be_a(String)
+        expect(parsed[:attributes]).to have_key(:travel_time)
+        expect(parsed[:attributes][:travel_time]).to be_a(String)
+        expect(parsed[:attributes]).to have_key(:weather_at_eta)
+        expect(parsed[:attributes][:weather_at_eta]).to be_a(Hash)
+        expect(parsed[:attributes][:weather_at_eta]).to have_key(:temperature)
+        expect(parsed[:attributes][:weather_at_eta][:temperature]).to be_a(Float)
+        expect(parsed[:attributes][:weather_at_eta]).to have_key(:conditions)
+        expect(parsed[:attributes][:weather_at_eta][:conditions]).to be_a(String)
+
 
     end
 end
