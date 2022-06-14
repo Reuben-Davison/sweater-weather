@@ -19,16 +19,19 @@ describe 'User login' do
         expect(parsed[:attributes][:email]).to be_a(String)
         expect(parsed[:attributes][:api_key]).to be_a(String)
     end
-
+    
     it 'will reject a user with bad credentials' do 
         create_list(:user, 5)
         create(:user, email: "test@test.com", password: "password" )
-        headers =['Content-Type': 'application/json',
-                'Accept': 'application/json']
+        headers = ['Content-Type': 'application/json',
+                   'Accept': 'application/json']
         body = {'email': 'test@test.com',
                 'password': 'passw'}
         post '/api/v1/sessions', headers: headers, params: body, as: :json
         expect(response).to_not be_successful
         expect(response.status).to eq(418)
-    end
+        parsed = JSON.parse(response.body, symbolize_names: true)
+        expect(parsed).to have_key(:text) 
+        expect(parsed[:text]).to eq("Bad credentials")
+        end
 end 
