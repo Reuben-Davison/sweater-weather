@@ -11,8 +11,6 @@ describe 'road trip request' do
         headers ={'Content-Type': 'application/json',
                   'Accept': 'application/json'}
         post '/api/v1/road_trip', headers: headers, params: body, as: :json
-        binding.pry
-        expect(response).to be_succesful
         parsed = JSON.parse(response.body, symbolize_names: true)[:data]
         expect(parsed).to have_key(:attributes)
         expect(parsed).to have_key(:id)
@@ -32,5 +30,18 @@ describe 'road trip request' do
         expect(parsed[:attributes][:weather_at_eta]).to have_key(:conditions)
         expect(parsed[:attributes][:weather_at_eta][:temperature]).to be_a(Float)
         expect(parsed[:attributes][:weather_at_eta][:conditions]).to be_a(String)
+    end
+
+    it "will rescure itself from an invalid route", :vcr do 
+        user = create(:user)
+        body = {
+            origin: 'Denver,CO',
+            destination: 'Iceland',
+            api_key: user.api_key
+        }
+        headers ={'Content-Type': 'application/json',
+                  'Accept': 'application/json'}
+        post '/api/v1/road_trip', headers: headers, params: body, as: :json
+        binding.pry
     end
 end
