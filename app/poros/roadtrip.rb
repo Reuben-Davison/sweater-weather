@@ -1,12 +1,11 @@
 class Roadtrip 
-    attr_reader :start_city, :end_city, :travel_time, :weather_at_eta
+    attr_reader :id, :start_city, :end_city, :travel_time, :weather_at_eta
 
     def initialize(origin, destination, trip_details, weather)
         @start_city = origin
         @end_city = destination
         @travel_time = find_travel_time(trip_details)
         @weather_at_eta = eta_weather(weather)
-        binding.pry
     end
 
     def find_travel_time(data)

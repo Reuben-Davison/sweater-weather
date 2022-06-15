@@ -14,8 +14,4 @@ class RoadtripFacade
         WeatherService.find_hourly_weather(coords[:lat], coords[:lng])
     end
 
-    def eta_calculation(trip_time_length)
-       Time.now.to_i + trip_time_length[:route][:legs][0][:time]
-    end
-
 end

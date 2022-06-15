@@ -1,7 +1,7 @@
 require 'rails_helper' 
 
 describe 'road trip request' do 
-    it ' will return json with start city, end city, travel time and weather at destination' do 
+    it ' will return json with start city, end city, travel time and weather at destination', :vcr do 
         user = create(:user)
         body = {
             origin: 'Denver,CO',
