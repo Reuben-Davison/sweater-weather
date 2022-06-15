@@ -15,7 +15,7 @@ class Api::V1::TripsController < ApplicationController
                         "attributes": { 
                             "start_city": trip_params[:origin],
                             "end_city": trip_params[:destination],
-                            "travel_time": "impossible route",
+                            "travel_time": "Impossible route",
                             "weather_at_eta": ""
                         }
                     }
