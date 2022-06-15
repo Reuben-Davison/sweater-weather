@@ -18,7 +18,7 @@ describe 'Road Trip Facade' do
         expect(trip.weather_at_eta[:conditions]).to be_a(String)
     end
 
-    it 'trip details will return origin, destination, and travel time' do 
+    it 'trip details will return origin, destination, and travel time', :vcr do 
         origin = "denver,co"
         destination = 'evergreen,co'
         trip = RoadtripFacade.get_trip_details(origin, destination)
