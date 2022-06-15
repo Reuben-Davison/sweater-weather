@@ -18,9 +18,15 @@ describe 'Road Trip Facade' do
         expect(trip.weather_at_eta[:conditions]).to be_a(String)
     end
 
-    it 'trip details will return origin, destination, and travel time', :vcr do 
+    it 'trip details will return origin, destination, and travel time', :vcr do
+         #unsure of what is happening, trip in pry provides what is expected, yet in the 
+         #test is is fshowing a 400 error
         origin = "denver,co"
         destination = 'evergreen,co'
         trip = RoadtripFacade.get_trip_details(origin, destination)
+        binding.pry
+        expect(trip).to have_key(:routes)
+        expect(trip[:routes]).to have_key(:legs)
+        expect(trip[:routes][:legs][0]).to have_key(:time)
     end 
 end

@@ -11,6 +11,7 @@ describe 'road trip request' do
         headers ={'Content-Type': 'application/json',
                   'Accept': 'application/json'}
         post '/api/v1/road_trip', headers: headers, params: body, as: :json
+        binding.pry
         expect(response).to be_succesful
         parsed = JSON.parse(response.body, symbolize_names: true)[:data]
         expect(parsed).to have_key(:attributes)
