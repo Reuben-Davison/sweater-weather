@@ -10,7 +10,7 @@ class Weather
     def get_hourly(hours) 
        hash = hours.map do |hour|
             {
-                :time => Time.at(hour[:dt]),
+                :time => Time.at(hour[:dt]).strftime("%I:%M:%S %p"),
                 :temperature => hour[:temp],
                 :conditions => hour[:weather][0][:description],
                 :icon => hour[:weather][0][:icon]
@@ -21,14 +21,14 @@ class Weather
 
     def get_current(current)
         {
-        :datetime => Time.at(current[:dt]),
-        :sunrise => current[:sunrise],
-        :sunset => current[:sunset],
+        :datetime => Time.at(current[:dt]).strftime("%m-%e-%y %H:%M"),
+        :sunrise => Time.at(current[:sunrise]).strftime("%I:%M:%S %p"),
+        :sunset => Time.at(current[:sunset]).strftime("%I:%M:%S %p"),
         :temperature => current[:temp],
         :feels_like => current[:feels_like],
         :humidity => current[:humidity],
         :uvi => current[:uvi],
-        :visibility => current[:visisbility],
+        :visibility => current[:visibility],
         :conditions => current[:weather][0][:description],
         :icon => current[:weather][0][:icon]
         }
@@ -37,9 +37,9 @@ class Weather
     def get_daily(days)
         hash = days.map do |day|
         {
-        :date => Time.at(day[:dt]),
-        :sunrise => day[:sunrise],
-        :sunset => day[:sunset],
+        :date => Time.at(day[:dt]).strftime("%A, %b %d"),
+        :sunrise => Time.at(day[:sunrise]).strftime("%I:%M:%S %p"),
+        :sunset => Time.at(day[:sunset]).strftime("%I:%M:%S %p"),
         :max_temp => day[:temp][:max],
         :min_temp => day[:temp][:min],
         :conditions => day[:weather][0][:description],

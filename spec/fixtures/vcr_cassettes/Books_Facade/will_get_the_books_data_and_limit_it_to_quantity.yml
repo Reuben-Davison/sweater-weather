@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Mon, 13 Jun 2022 20:41:44 GMT
+      - Wed, 15 Jun 2022 03:50:49 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,7 +35,7 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"SR 1 0.157 TT 0 0.166"'
+      - '"SR 1 0.087 TT 0 0.093"'
       Referrer-Policy:
       - no-referrer-when-downgrade
     body:
@@ -2457,5 +2457,5 @@ http_interactions:
             "q": "place:boston,ma",
             "offset": null
         }
-  recorded_at: Mon, 13 Jun 2022 20:41:44 GMT
+  recorded_at: Wed, 15 Jun 2022 03:50:49 GMT
 recorded_with: VCR 6.1.0
