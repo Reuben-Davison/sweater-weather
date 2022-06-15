@@ -6,9 +6,9 @@ class RoadtripFacade
     end
 
     def self.get_trip_details(origin, destination)
-        MapquestService.get_route(origin, destination)
+       MapquestService.get_route(origin, destination)
     end
-
+    
     def self.destination_weather(destination)
         coords = MapquestService.find_by_location(destination)[:results][0][:locations][0][:displayLatLng]
         WeatherService.find_hourly_weather(coords[:lat], coords[:lng])
