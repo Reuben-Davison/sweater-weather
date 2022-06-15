@@ -17,6 +17,4 @@ describe 'Road Trip Facade' do
         expect(trip.weather_at_eta[:temperature]).to be_a(Float)
         expect(trip.weather_at_eta[:conditions]).to be_a(String)
     end
-
-
 end
