@@ -58,7 +58,21 @@ describe 'road trip request' do
         expect(parsed[:attributes][:travel_time]).to be_a(String)
         expect(parsed[:attributes][:travel_time]).to eq("Impossible route")
         expect(parsed[:attributes][:weather_at_eta]).to eq("")
+    end
 
-        binding.pry
+    it 'requires a valid api key' do 
+        body = {
+            origin: 'Denver,CO',
+            destination: 'Iceland',
+            api_key: 'madeupapikey'
+        }
+        headers ={'Content-Type': 'application/json',
+                  'Accept': 'application/json'}
+        post '/api/v1/road_trip', headers: headers, params: body, as: :json
+        expect(response.status).to eq(418)
+        parsed = JSON.parse(response.body, symbolize_names: true)
+        expect(parsed).to have_key(:text)
+        expect(parsed[:text]). to eq("Invalid API key")
+
     end
 end

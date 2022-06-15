@@ -19,9 +19,9 @@ class Roadtrip
     def eta_weather(data)
         target_time = Time.now.to_i + @time
         hour = data[:hourly].find{|hour| hour[:dt] >= target_time}
-        {
-           :temperature => hour[:temp],
-           :conditions => hour[:weather][0][:description]
-        }
+            {
+            :temperature => hour[:temp],
+            :conditions => hour[:weather][0][:description]
+            }
     end
 end

@@ -24,9 +24,10 @@ describe 'Road Trip Facade' do
         origin = "denver,co"
         destination = 'evergreen,co'
         trip = RoadtripFacade.get_trip_details(origin, destination)
-        binding.pry
         expect(trip).to have_key(:routes)
         expect(trip[:routes]).to have_key(:legs)
         expect(trip[:routes][:legs][0]).to have_key(:time)
     end 
+
+    
 end

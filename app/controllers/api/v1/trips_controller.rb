@@ -22,7 +22,7 @@ class Api::V1::TripsController < ApplicationController
                 }
             end 
         else 
-            render json: {text: "Invalid API key"}
+            render json: {text: "Invalid API key"}, status: 418
         end 
     end
 
